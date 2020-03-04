@@ -1,0 +1,423 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Component /> renders mountung the component 1`] = `
+<GetAllUsers>
+  <NotFound>
+    <Navigationbar>
+      <Navbar
+        bg="light"
+        collapseOnSelect={false}
+        expand="lg"
+        fluid={true}
+        inverse={true}
+        variant="light"
+      >
+        <nav
+          className="navbar navbar-expand-lg navbar-light bg-light"
+          fluid={true}
+          inverse={true}
+        >
+          <NavbarBrand
+            href="#home"
+          >
+            <a
+              className="navbar-brand"
+              href="#home"
+            >
+              Employee Management System
+            </a>
+          </NavbarBrand>
+          <NavbarToggle
+            aria-controls="basic-navbar-nav"
+            label="Toggle navigation"
+          >
+            <button
+              aria-controls="basic-navbar-nav"
+              aria-label="Toggle navigation"
+              className="navbar-toggler collapsed"
+              onClick={[Function]}
+              type="button"
+            >
+              <span
+                className="navbar-toggler-icon"
+              />
+            </button>
+          </NavbarToggle>
+          <NavbarCollapse
+            id="basic-navbar-nav"
+          >
+            <Collapse
+              appear={false}
+              dimension="height"
+              getDimensionValue={[Function]}
+              id="basic-navbar-nav"
+              in={false}
+              mountOnEnter={false}
+              timeout={300}
+              unmountOnExit={false}
+            >
+              <Transition
+                addEndListener={[Function]}
+                appear={false}
+                aria-expanded={null}
+                enter={true}
+                exit={true}
+                id="basic-navbar-nav"
+                in={false}
+                mountOnEnter={false}
+                onEnter={[Function]}
+                onEntered={[Function]}
+                onEntering={[Function]}
+                onExit={[Function]}
+                onExited={[Function]}
+                onExiting={[Function]}
+                timeout={300}
+                unmountOnExit={false}
+              >
+                <div
+                  aria-expanded={null}
+                  className="navbar-collapse collapse"
+                  id="basic-navbar-nav"
+                >
+                  <Nav
+                    className="mr-auto"
+                    fill={false}
+                    justify={false}
+                  >
+                    <ForwardRef
+                      as="div"
+                      className="mr-auto navbar-nav"
+                      onSelect={[Function]}
+                    >
+                      <div
+                        className="mr-auto navbar-nav"
+                        onKeyDown={[Function]}
+                      >
+                        <BrowserRouter>
+                          <Router
+                            history={
+                              Object {
+                                "action": "POP",
+                                "block": [Function],
+                                "createHref": [Function],
+                                "go": [Function],
+                                "goBack": [Function],
+                                "goForward": [Function],
+                                "length": 1,
+                                "listen": [Function],
+                                "location": Object {
+                                  "hash": "",
+                                  "pathname": "blank",
+                                  "search": "",
+                                  "state": undefined,
+                                },
+                                "push": [Function],
+                                "replace": [Function],
+                              }
+                            }
+                          >
+                            <Link
+                              onClick={[Function]}
+                              to="/tasks"
+                            >
+                              <LinkAnchor
+                                href="/tasks"
+                                navigate={[Function]}
+                                onClick={[Function]}
+                              >
+                                <a
+                                  href="/tasks"
+                                  onClick={[Function]}
+                                >
+                                  Tasks
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                            <Link
+                              onClick={[Function]}
+                              to="/timings"
+                            >
+                              <LinkAnchor
+                                href="/timings"
+                                navigate={[Function]}
+                                onClick={[Function]}
+                              >
+                                <a
+                                  href="/timings"
+                                  onClick={[Function]}
+                                >
+                                  Timings
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                          </Router>
+                        </BrowserRouter>
+                      </div>
+                    </ForwardRef>
+                  </Nav>
+                  <Nav
+                    fill={false}
+                    justify={false}
+                  >
+                    <ForwardRef
+                      as="div"
+                      className="navbar-nav"
+                      onSelect={[Function]}
+                    >
+                      <div
+                        className="navbar-nav"
+                        onKeyDown={[Function]}
+                      >
+                        <Button
+                          active={false}
+                          disabled={false}
+                          onClick={[Function]}
+                          type="button"
+                          variant="outline-info"
+                        >
+                          <button
+                            className="btn btn-outline-info"
+                            disabled={false}
+                            onClick={[Function]}
+                            type="button"
+                          >
+                            Logout
+                          </button>
+                        </Button>
+                      </div>
+                    </ForwardRef>
+                  </Nav>
+                </div>
+              </Transition>
+            </Collapse>
+          </NavbarCollapse>
+        </nav>
+      </Navbar>
+    </Navigationbar>
+    <styled.div>
+      <div
+        className="sc-AxjAm bcThxe"
+      >
+        <styled.h1>
+          <h1
+            className="sc-AxirZ kHuMvb"
+          >
+            Not Found...
+          </h1>
+        </styled.h1>
+      </div>
+    </styled.div>
+  </NotFound>
+</GetAllUsers>
+`;
+
+exports[`<Component /> renders simulating a Assign Task Button 1`] = `
+<GetAllUsers>
+  <NotFound>
+    <Navigationbar>
+      <Navbar
+        bg="light"
+        collapseOnSelect={false}
+        expand="lg"
+        fluid={true}
+        inverse={true}
+        variant="light"
+      >
+        <nav
+          className="navbar navbar-expand-lg navbar-light bg-light"
+          fluid={true}
+          inverse={true}
+        >
+          <NavbarBrand
+            href="#home"
+          >
+            <a
+              className="navbar-brand"
+              href="#home"
+            >
+              Employee Management System
+            </a>
+          </NavbarBrand>
+          <NavbarToggle
+            aria-controls="basic-navbar-nav"
+            label="Toggle navigation"
+          >
+            <button
+              aria-controls="basic-navbar-nav"
+              aria-label="Toggle navigation"
+              className="navbar-toggler collapsed"
+              onClick={[Function]}
+              type="button"
+            >
+              <span
+                className="navbar-toggler-icon"
+              />
+            </button>
+          </NavbarToggle>
+          <NavbarCollapse
+            id="basic-navbar-nav"
+          >
+            <Collapse
+              appear={false}
+              dimension="height"
+              getDimensionValue={[Function]}
+              id="basic-navbar-nav"
+              in={false}
+              mountOnEnter={false}
+              timeout={300}
+              unmountOnExit={false}
+            >
+              <Transition
+                addEndListener={[Function]}
+                appear={false}
+                aria-expanded={null}
+                enter={true}
+                exit={true}
+                id="basic-navbar-nav"
+                in={false}
+                mountOnEnter={false}
+                onEnter={[Function]}
+                onEntered={[Function]}
+                onEntering={[Function]}
+                onExit={[Function]}
+                onExited={[Function]}
+                onExiting={[Function]}
+                timeout={300}
+                unmountOnExit={false}
+              >
+                <div
+                  aria-expanded={null}
+                  className="navbar-collapse collapse"
+                  id="basic-navbar-nav"
+                >
+                  <Nav
+                    className="mr-auto"
+                    fill={false}
+                    justify={false}
+                  >
+                    <ForwardRef
+                      as="div"
+                      className="mr-auto navbar-nav"
+                      onSelect={[Function]}
+                    >
+                      <div
+                        className="mr-auto navbar-nav"
+                        onKeyDown={[Function]}
+                      >
+                        <BrowserRouter>
+                          <Router
+                            history={
+                              Object {
+                                "action": "POP",
+                                "block": [Function],
+                                "createHref": [Function],
+                                "go": [Function],
+                                "goBack": [Function],
+                                "goForward": [Function],
+                                "length": 1,
+                                "listen": [Function],
+                                "location": Object {
+                                  "hash": "",
+                                  "pathname": "blank",
+                                  "search": "",
+                                  "state": undefined,
+                                },
+                                "push": [Function],
+                                "replace": [Function],
+                              }
+                            }
+                          >
+                            <Link
+                              onClick={[Function]}
+                              to="/tasks"
+                            >
+                              <LinkAnchor
+                                href="/tasks"
+                                navigate={[Function]}
+                                onClick={[Function]}
+                              >
+                                <a
+                                  href="/tasks"
+                                  onClick={[Function]}
+                                >
+                                  Tasks
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                            <Link
+                              onClick={[Function]}
+                              to="/timings"
+                            >
+                              <LinkAnchor
+                                href="/timings"
+                                navigate={[Function]}
+                                onClick={[Function]}
+                              >
+                                <a
+                                  href="/timings"
+                                  onClick={[Function]}
+                                >
+                                  Timings
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                          </Router>
+                        </BrowserRouter>
+                      </div>
+                    </ForwardRef>
+                  </Nav>
+                  <Nav
+                    fill={false}
+                    justify={false}
+                  >
+                    <ForwardRef
+                      as="div"
+                      className="navbar-nav"
+                      onSelect={[Function]}
+                    >
+                      <div
+                        className="navbar-nav"
+                        onKeyDown={[Function]}
+                      >
+                        <Button
+                          active={false}
+                          disabled={false}
+                          onClick={[Function]}
+                          type="button"
+                          variant="outline-info"
+                        >
+                          <button
+                            className="btn btn-outline-info"
+                            disabled={false}
+                            onClick={[Function]}
+                            type="button"
+                          >
+                            Logout
+                          </button>
+                        </Button>
+                      </div>
+                    </ForwardRef>
+                  </Nav>
+                </div>
+              </Transition>
+            </Collapse>
+          </NavbarCollapse>
+        </nav>
+      </Navbar>
+    </Navigationbar>
+    <styled.div>
+      <div
+        className="sc-AxjAm bcThxe"
+      >
+        <styled.h1>
+          <h1
+            className="sc-AxirZ kHuMvb"
+          >
+            Not Found...
+          </h1>
+        </styled.h1>
+      </div>
+    </styled.div>
+  </NotFound>
+</GetAllUsers>
+`;
