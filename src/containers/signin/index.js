@@ -51,7 +51,7 @@ const Signin = props => {
       if (user.role === "manager") {
         props.history.push("/alldevelopers");
       } else {
-        props.history.push("/dashboard");
+        props.history.push("/tasks");
       }
     } catch (e) {
       console.log(e.message);

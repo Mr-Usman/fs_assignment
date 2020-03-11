@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import { Form, Button, Col, Row, Jumbotron } from "react-bootstrap";
 import axios from "axios";
+import "react-datepicker/dist/react-datepicker.css";
 import DatePicker from "react-datepicker";
 import NotFound from "../../components/NotFound";
 
@@ -31,6 +32,7 @@ class AssignTask extends Component {
       taskAssigned: false
     };
   }
+
   onSubmit = async e => {
     try {
       e.preventDefault();
@@ -63,7 +65,7 @@ class AssignTask extends Component {
   render() {
     const { user, title, description, deadline, taskAssigned } = this.state;
     if (this.props.role !== "manager") {
-      return <NotFound role={this.props.role} />;
+      return <NotFound role={this.props.role} message="Not Found..." />;
     }
     return (
       <React.Fragment>
@@ -78,6 +80,7 @@ class AssignTask extends Component {
                   <Form.Label>Title</Form.Label>
                   <Form.Control
                     onChange={e => this.setState({ title: e.target.value })}
+                    data-testid="title"
                     name="title"
                     value={title}
                     type="text"
@@ -87,6 +90,7 @@ class AssignTask extends Component {
                   <Form.Label>Description</Form.Label>
                   <Form.Control
                     as="textarea"
+                    data-testid="description"
                     aria-label="With textarea"
                     onChange={e =>
                       this.setState({ description: e.target.value })
@@ -102,6 +106,7 @@ class AssignTask extends Component {
                     selected={deadline}
                     onChange={date => this.setState({ deadline: date })}
                     showTimeSelect
+                    id="datetime"
                     timeFormat="HH:mm"
                     timeIntervals={15}
                     timeCaption="time"

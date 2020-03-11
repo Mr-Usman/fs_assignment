@@ -32,6 +32,7 @@ const Shift = props => {
   const [timing, setTiming] = useState([]);
   const [swap, setSwap] = useState([]);
   const [day, setDay] = useState(null);
+  const [hasShift, setHasShift] = useState(true);
 
   useEffect(() => {
     async function getTiming() {
@@ -40,8 +41,11 @@ const Shift = props => {
         headers: { Authorization: `Bearer ${token}` }
       };
       const res = await axios.get(API.userTiming, config);
-      console.log(res);
-      setTiming(res.data.weekShift);
+      if (!res.data) {
+        setHasShift(false);
+      } else {
+        setTiming(res.data.weekShift);
+      }
     }
     getTiming();
   }, []);
@@ -89,7 +93,11 @@ const Shift = props => {
   };
 
   if (props.role !== "developer") {
-    return <NotFound role={props.role} />;
+    return <NotFound role={props.role} message="Not Found..." />;
+  }
+
+  if (!hasShift) {
+    return <NotFound role={props.role} message="user hasn't any shift yet." />;
   }
 
   return (
@@ -98,9 +106,9 @@ const Shift = props => {
       <Wrapper>
         <Title>{email}</Title>
         <Heading>Your Shift for this week</Heading>
-        {timing.length && (
+        {timing.length ? (
           <RenderTable onDrop={onDrop} onSwap={onSwap} timing={timing} />
-        )}
+        ) : null}
       </Wrapper>
     </React.Fragment>
   );

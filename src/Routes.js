@@ -6,7 +6,6 @@ import FallBack from "./components/fallbackUI";
 
 const Signin = lazy(() => import("./containers/signin"));
 const Dashboard = lazy(() => import("./containers/dashboard"));
-const Tasks = lazy(() => import("./containers/tasks"));
 const CreateProfile = lazy(() => import("./containers/createProfile"));
 const EditProfile = lazy(() => import("./containers/editProfile"));
 const GetAllDevelopers = lazy(() => import("./containers/getAllUsers"));
@@ -30,7 +29,6 @@ const Routes = () => {
           <Switch>
             <Route exact path="/signin" component={Signin}></Route>
             <PrivateRoute component={Dashboard} path="/dashboard" exact />
-            <PrivateRoute component={Tasks} path="/task" exact />
             <PrivateRoute
               component={CreateProfile}
               path="/createprofile"

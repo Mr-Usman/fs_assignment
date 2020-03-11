@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Jumbotron } from "react-bootstrap";
 import styled from "styled-components";
 import RenderTable from "./renderTable";
 
@@ -22,6 +23,7 @@ const MatchUsers = props => {
   const list = props.location.state ? props.location.state.swap : null;
   const day = props.location.state ? props.location.state.day : null;
   const [selectedUsers, setSelectedUsers] = useState([]);
+  const [sendRequest, setSendRequest] = useState(false);
 
   const allSelectedUsers = id => {
     const selectUsers = [...selectedUsers];
@@ -41,7 +43,9 @@ const MatchUsers = props => {
         { userIds: selectedUsers, day },
         config
       );
-      console.log(res);
+      if (res.data) {
+        setSendRequest(true);
+      }
     } catch (e) {
       console.log(e.message);
     }
@@ -49,7 +53,7 @@ const MatchUsers = props => {
   };
 
   if (props.role !== "developer") {
-    return <NotFound role={props.role} />;
+    return <NotFound role={props.role} message="Not Found..." />;
   }
 
   return (
@@ -65,6 +69,11 @@ const MatchUsers = props => {
           />
         )}
       </Wrapper>
+      {sendRequest && (
+        <Jumbotron>
+          <p>Request Send To User!</p>
+        </Jumbotron>
+      )}
     </React.Fragment>
   );
 };

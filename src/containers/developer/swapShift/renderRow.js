@@ -12,7 +12,9 @@ const RenderRow = ({ shift, email, swapShift }) => {
         <td>{email}</td>
         <td>
           <Form>
-            <Button onClick={() => swapShift(shift)}>Swap</Button>
+            <Button data-testid="swapshift" onClick={() => swapShift(shift)}>
+              Swap
+            </Button>
           </Form>
         </td>
       </tr>

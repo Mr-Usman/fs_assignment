@@ -1,0 +1,3708 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AssignShift /> Component mounting component 1`] = `
+<MemoryRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "raw4df",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "raw4df",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <AssignShift
+      location={
+        Object {
+          "state": Object {
+            "user": Object {
+              "email": "ali@gmail.com",
+            },
+          },
+        }
+      }
+      role="manager"
+    >
+      <withRouter(Navigationbar)
+        role="manager"
+      >
+        <Navigationbar
+          history={
+            Object {
+              "action": "POP",
+              "block": [Function],
+              "canGo": [Function],
+              "createHref": [Function],
+              "entries": Array [
+                Object {
+                  "hash": "",
+                  "key": "raw4df",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                },
+              ],
+              "go": [Function],
+              "goBack": [Function],
+              "goForward": [Function],
+              "index": 0,
+              "length": 1,
+              "listen": [Function],
+              "location": Object {
+                "hash": "",
+                "key": "raw4df",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              },
+              "push": [Function],
+              "replace": [Function],
+            }
+          }
+          location={
+            Object {
+              "hash": "",
+              "key": "raw4df",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            }
+          }
+          match={
+            Object {
+              "isExact": true,
+              "params": Object {},
+              "path": "/",
+              "url": "/",
+            }
+          }
+          role="manager"
+        >
+          <Navbar
+            bg="light"
+            collapseOnSelect={false}
+            expand="lg"
+            variant="light"
+          >
+            <nav
+              className="navbar navbar-expand-lg navbar-light bg-light"
+            >
+              <NavbarBrand
+                onClick={[Function]}
+              >
+                <span
+                  className="navbar-brand"
+                  onClick={[Function]}
+                >
+                  Employee Management System
+                </span>
+              </NavbarBrand>
+              <NavbarToggle
+                aria-controls="basic-navbar-nav"
+                label="Toggle navigation"
+              >
+                <button
+                  aria-controls="basic-navbar-nav"
+                  aria-label="Toggle navigation"
+                  className="navbar-toggler collapsed"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <span
+                    className="navbar-toggler-icon"
+                  />
+                </button>
+              </NavbarToggle>
+              <NavbarCollapse
+                id="basic-navbar-nav"
+              >
+                <Collapse
+                  appear={false}
+                  dimension="height"
+                  getDimensionValue={[Function]}
+                  id="basic-navbar-nav"
+                  in={false}
+                  mountOnEnter={false}
+                  timeout={300}
+                  unmountOnExit={false}
+                >
+                  <Transition
+                    addEndListener={[Function]}
+                    appear={false}
+                    aria-expanded={null}
+                    enter={true}
+                    exit={true}
+                    id="basic-navbar-nav"
+                    in={false}
+                    mountOnEnter={false}
+                    onEnter={[Function]}
+                    onEntered={[Function]}
+                    onEntering={[Function]}
+                    onExit={[Function]}
+                    onExited={[Function]}
+                    onExiting={[Function]}
+                    timeout={300}
+                    unmountOnExit={false}
+                  >
+                    <div
+                      aria-expanded={null}
+                      className="navbar-collapse collapse"
+                      id="basic-navbar-nav"
+                    >
+                      <Nav
+                        className="mr-auto"
+                        fill={false}
+                        justify={false}
+                      >
+                        <ForwardRef
+                          as="div"
+                          className="mr-auto navbar-nav"
+                          onSelect={[Function]}
+                        >
+                          <div
+                            className="mr-auto navbar-nav"
+                            onKeyDown={[Function]}
+                          >
+                            <BrowserRouter>
+                              <Router
+                                history={
+                                  Object {
+                                    "action": "POP",
+                                    "block": [Function],
+                                    "createHref": [Function],
+                                    "go": [Function],
+                                    "goBack": [Function],
+                                    "goForward": [Function],
+                                    "length": 1,
+                                    "listen": [Function],
+                                    "location": Object {
+                                      "hash": "",
+                                      "pathname": "blank",
+                                      "search": "",
+                                      "state": undefined,
+                                    },
+                                    "push": [Function],
+                                    "replace": [Function],
+                                  }
+                                }
+                              >
+                                <Link
+                                  onClick={[Function]}
+                                  to="/createprofile"
+                                >
+                                  <LinkAnchor
+                                    href="/createprofile"
+                                    navigate={[Function]}
+                                    onClick={[Function]}
+                                  >
+                                    <a
+                                      href="/createprofile"
+                                      onClick={[Function]}
+                                    >
+                                      Add Developer
+                                    </a>
+                                  </LinkAnchor>
+                                </Link>
+                                <Link
+                                  onClick={[Function]}
+                                  to="/alldevelopers"
+                                >
+                                  <LinkAnchor
+                                    href="/alldevelopers"
+                                    navigate={[Function]}
+                                    onClick={[Function]}
+                                  >
+                                    <a
+                                      href="/alldevelopers"
+                                      onClick={[Function]}
+                                    >
+                                      All Developer
+                                    </a>
+                                  </LinkAnchor>
+                                </Link>
+                              </Router>
+                            </BrowserRouter>
+                          </div>
+                        </ForwardRef>
+                      </Nav>
+                      <Nav
+                        fill={false}
+                        justify={false}
+                      >
+                        <ForwardRef
+                          as="div"
+                          className="navbar-nav"
+                          onSelect={[Function]}
+                        >
+                          <div
+                            className="navbar-nav"
+                            onKeyDown={[Function]}
+                          >
+                            <Button
+                              active={false}
+                              disabled={false}
+                              onClick={[Function]}
+                              type="button"
+                              variant="outline-info"
+                            >
+                              <button
+                                className="btn btn-outline-info"
+                                disabled={false}
+                                onClick={[Function]}
+                                type="button"
+                              >
+                                Logout
+                              </button>
+                            </Button>
+                          </div>
+                        </ForwardRef>
+                      </Nav>
+                    </div>
+                  </Transition>
+                </Collapse>
+              </NavbarCollapse>
+            </nav>
+          </Navbar>
+        </Navigationbar>
+      </withRouter(Navigationbar)>
+      <styled.div>
+        <div
+          className="sc-AxiKw gA-drMl"
+        >
+          <styled.h1>
+            <h1
+              className="sc-AxhCb jQvLNr"
+            >
+              Assign Shift To (
+              )
+            </h1>
+          </styled.h1>
+          <AssignTable
+            days={
+              Array [
+                Object {
+                  "day": "Monday",
+                  "endTime": 2020-03-10T11:11:47.232Z,
+                  "id": 1,
+                  "startTime": 2020-03-10T11:11:47.232Z,
+                },
+                Object {
+                  "day": "Tuesday",
+                  "endTime": 2020-03-10T11:11:47.232Z,
+                  "id": 2,
+                  "startTime": 2020-03-10T11:11:47.232Z,
+                },
+                Object {
+                  "day": "Wednesday",
+                  "endTime": 2020-03-10T11:11:47.232Z,
+                  "id": 3,
+                  "startTime": 2020-03-10T11:11:47.232Z,
+                },
+                Object {
+                  "day": "Thursday",
+                  "endTime": 2020-03-10T11:11:47.232Z,
+                  "id": 4,
+                  "startTime": 2020-03-10T11:11:47.232Z,
+                },
+                Object {
+                  "day": "Friday",
+                  "endTime": 2020-03-10T11:11:47.232Z,
+                  "id": 5,
+                  "startTime": 2020-03-10T11:11:47.232Z,
+                },
+              ]
+            }
+            onChange={[Function]}
+            onSubmit={[Function]}
+          >
+            <Form
+              inline={false}
+              onSubmit={[Function]}
+            >
+              <form
+                className=""
+                onSubmit={[Function]}
+              >
+                <ForwardRef
+                  bordered={true}
+                  hover={true}
+                  striped={true}
+                >
+                  <table
+                    className="table table-striped table-bordered table-hover"
+                  >
+                    <thead>
+                      <tr>
+                        <th>
+                          Day
+                        </th>
+                        <th>
+                          Start Time
+                        </th>
+                        <th>
+                          End Time
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <RenderRow
+                        days={
+                          Array [
+                            Object {
+                              "day": "Monday",
+                              "endTime": 2020-03-10T11:11:47.232Z,
+                              "id": 1,
+                              "startTime": 2020-03-10T11:11:47.232Z,
+                            },
+                            Object {
+                              "day": "Tuesday",
+                              "endTime": 2020-03-10T11:11:47.232Z,
+                              "id": 2,
+                              "startTime": 2020-03-10T11:11:47.232Z,
+                            },
+                            Object {
+                              "day": "Wednesday",
+                              "endTime": 2020-03-10T11:11:47.232Z,
+                              "id": 3,
+                              "startTime": 2020-03-10T11:11:47.232Z,
+                            },
+                            Object {
+                              "day": "Thursday",
+                              "endTime": 2020-03-10T11:11:47.232Z,
+                              "id": 4,
+                              "startTime": 2020-03-10T11:11:47.232Z,
+                            },
+                            Object {
+                              "day": "Friday",
+                              "endTime": 2020-03-10T11:11:47.232Z,
+                              "id": 5,
+                              "startTime": 2020-03-10T11:11:47.232Z,
+                            },
+                          ]
+                        }
+                        onChange={[Function]}
+                      >
+                        <tr
+                          key="1"
+                        >
+                          <td>
+                            Monday
+                          </td>
+                          <td>
+                            <t
+                              allowSameDay={false}
+                              customTimeInput={null}
+                              dateFormat="MMMM d, yyyy h:mm aa"
+                              dateFormatCalendar="LLLL yyyy"
+                              disabled={false}
+                              disabledKeyboardNavigation={false}
+                              dropdownMode="scroll"
+                              enableTabLoop={true}
+                              excludeScrollbar={true}
+                              id="startTime"
+                              inlineFocusSelectedMonth={false}
+                              monthsShown={1}
+                              nextMonthButtonLabel="Next Month"
+                              nextYearButtonLabel="Next Year"
+                              onBlur={[Function]}
+                              onCalendarClose={[Function]}
+                              onCalendarOpen={[Function]}
+                              onChange={[Function]}
+                              onClickOutside={[Function]}
+                              onFocus={[Function]}
+                              onInputClick={[Function]}
+                              onInputError={[Function]}
+                              onKeyDown={[Function]}
+                              onMonthChange={[Function]}
+                              onSelect={[Function]}
+                              onYearChange={[Function]}
+                              preventOpenOnFocus={false}
+                              previousMonthButtonLabel="Previous Month"
+                              previousYearButtonLabel="Previous Year"
+                              readOnly={false}
+                              renderDayContents={[Function]}
+                              selected={2020-03-10T11:11:47.232Z}
+                              shouldCloseOnSelect={true}
+                              showMonthYearPicker={false}
+                              showPopperArrow={true}
+                              showPreviousMonths={false}
+                              showQuarterYearPicker={false}
+                              showTimeInput={false}
+                              showTimeSelect={true}
+                              strictParsing={false}
+                              timeCaption="time"
+                              timeFormat="HH:mm"
+                              timeInputLabel="Time"
+                              timeIntervals={15}
+                              withPortal={false}
+                            >
+                              <t
+                                enableTabLoop={true}
+                                hidePopper={true}
+                                popperComponent={null}
+                                popperModifiers={
+                                  Object {
+                                    "preventOverflow": Object {
+                                      "boundariesElement": "viewport",
+                                      "enabled": true,
+                                      "escapeWithReference": true,
+                                    },
+                                  }
+                                }
+                                popperOnKeyDown={[Function]}
+                                popperPlacement="bottom-start"
+                                popperProps={Object {}}
+                                targetComponent={
+                                  <div
+                                    className="react-datepicker__input-container"
+                                  >
+                                    <input
+                                      className=""
+                                      disabled={false}
+                                      id="startTime"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onClick={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
+                                      readOnly={false}
+                                      type="text"
+                                      value="March 10, 2020 4:11 PM"
+                                    />
+                                  </div>
+                                }
+                              >
+                                <Manager
+                                  className="react-datepicker-manager"
+                                >
+                                  <Reference>
+                                    <InnerReference
+                                      setReferenceNode={[Function]}
+                                    >
+                                      <div
+                                        className="react-datepicker-wrapper"
+                                      >
+                                        <div
+                                          className="react-datepicker__input-container"
+                                        >
+                                          <input
+                                            className=""
+                                            disabled={false}
+                                            id="startTime"
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onClick={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyDown={[Function]}
+                                            readOnly={false}
+                                            type="text"
+                                            value="March 10, 2020 4:11 PM"
+                                          />
+                                        </div>
+                                      </div>
+                                    </InnerReference>
+                                  </Reference>
+                                </Manager>
+                              </t>
+                            </t>
+                          </td>
+                          <td>
+                            <t
+                              allowSameDay={false}
+                              customTimeInput={null}
+                              dateFormat="MMMM d, yyyy h:mm aa"
+                              dateFormatCalendar="LLLL yyyy"
+                              disabled={false}
+                              disabledKeyboardNavigation={false}
+                              dropdownMode="scroll"
+                              enableTabLoop={true}
+                              excludeScrollbar={true}
+                              id="endTime"
+                              inlineFocusSelectedMonth={false}
+                              monthsShown={1}
+                              nextMonthButtonLabel="Next Month"
+                              nextYearButtonLabel="Next Year"
+                              onBlur={[Function]}
+                              onCalendarClose={[Function]}
+                              onCalendarOpen={[Function]}
+                              onChange={[Function]}
+                              onClickOutside={[Function]}
+                              onFocus={[Function]}
+                              onInputClick={[Function]}
+                              onInputError={[Function]}
+                              onKeyDown={[Function]}
+                              onMonthChange={[Function]}
+                              onSelect={[Function]}
+                              onYearChange={[Function]}
+                              preventOpenOnFocus={false}
+                              previousMonthButtonLabel="Previous Month"
+                              previousYearButtonLabel="Previous Year"
+                              readOnly={false}
+                              renderDayContents={[Function]}
+                              selected={2020-03-10T11:11:47.232Z}
+                              shouldCloseOnSelect={true}
+                              showMonthYearPicker={false}
+                              showPopperArrow={true}
+                              showPreviousMonths={false}
+                              showQuarterYearPicker={false}
+                              showTimeInput={false}
+                              showTimeSelect={true}
+                              strictParsing={false}
+                              timeCaption="time"
+                              timeFormat="HH:mm"
+                              timeInputLabel="Time"
+                              timeIntervals={15}
+                              withPortal={false}
+                            >
+                              <t
+                                enableTabLoop={true}
+                                hidePopper={true}
+                                popperComponent={null}
+                                popperModifiers={
+                                  Object {
+                                    "preventOverflow": Object {
+                                      "boundariesElement": "viewport",
+                                      "enabled": true,
+                                      "escapeWithReference": true,
+                                    },
+                                  }
+                                }
+                                popperOnKeyDown={[Function]}
+                                popperPlacement="bottom-start"
+                                popperProps={Object {}}
+                                targetComponent={
+                                  <div
+                                    className="react-datepicker__input-container"
+                                  >
+                                    <input
+                                      className=""
+                                      disabled={false}
+                                      id="endTime"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onClick={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
+                                      readOnly={false}
+                                      type="text"
+                                      value="March 10, 2020 4:11 PM"
+                                    />
+                                  </div>
+                                }
+                              >
+                                <Manager
+                                  className="react-datepicker-manager"
+                                >
+                                  <Reference>
+                                    <InnerReference
+                                      setReferenceNode={[Function]}
+                                    >
+                                      <div
+                                        className="react-datepicker-wrapper"
+                                      >
+                                        <div
+                                          className="react-datepicker__input-container"
+                                        >
+                                          <input
+                                            className=""
+                                            disabled={false}
+                                            id="endTime"
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onClick={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyDown={[Function]}
+                                            readOnly={false}
+                                            type="text"
+                                            value="March 10, 2020 4:11 PM"
+                                          />
+                                        </div>
+                                      </div>
+                                    </InnerReference>
+                                  </Reference>
+                                </Manager>
+                              </t>
+                            </t>
+                          </td>
+                        </tr>
+                        <tr
+                          key="2"
+                        >
+                          <td>
+                            Tuesday
+                          </td>
+                          <td>
+                            <t
+                              allowSameDay={false}
+                              customTimeInput={null}
+                              dateFormat="MMMM d, yyyy h:mm aa"
+                              dateFormatCalendar="LLLL yyyy"
+                              disabled={false}
+                              disabledKeyboardNavigation={false}
+                              dropdownMode="scroll"
+                              enableTabLoop={true}
+                              excludeScrollbar={true}
+                              id="startTime"
+                              inlineFocusSelectedMonth={false}
+                              monthsShown={1}
+                              nextMonthButtonLabel="Next Month"
+                              nextYearButtonLabel="Next Year"
+                              onBlur={[Function]}
+                              onCalendarClose={[Function]}
+                              onCalendarOpen={[Function]}
+                              onChange={[Function]}
+                              onClickOutside={[Function]}
+                              onFocus={[Function]}
+                              onInputClick={[Function]}
+                              onInputError={[Function]}
+                              onKeyDown={[Function]}
+                              onMonthChange={[Function]}
+                              onSelect={[Function]}
+                              onYearChange={[Function]}
+                              preventOpenOnFocus={false}
+                              previousMonthButtonLabel="Previous Month"
+                              previousYearButtonLabel="Previous Year"
+                              readOnly={false}
+                              renderDayContents={[Function]}
+                              selected={2020-03-10T11:11:47.232Z}
+                              shouldCloseOnSelect={true}
+                              showMonthYearPicker={false}
+                              showPopperArrow={true}
+                              showPreviousMonths={false}
+                              showQuarterYearPicker={false}
+                              showTimeInput={false}
+                              showTimeSelect={true}
+                              strictParsing={false}
+                              timeCaption="time"
+                              timeFormat="HH:mm"
+                              timeInputLabel="Time"
+                              timeIntervals={15}
+                              withPortal={false}
+                            >
+                              <t
+                                enableTabLoop={true}
+                                hidePopper={true}
+                                popperComponent={null}
+                                popperModifiers={
+                                  Object {
+                                    "preventOverflow": Object {
+                                      "boundariesElement": "viewport",
+                                      "enabled": true,
+                                      "escapeWithReference": true,
+                                    },
+                                  }
+                                }
+                                popperOnKeyDown={[Function]}
+                                popperPlacement="bottom-start"
+                                popperProps={Object {}}
+                                targetComponent={
+                                  <div
+                                    className="react-datepicker__input-container"
+                                  >
+                                    <input
+                                      className=""
+                                      disabled={false}
+                                      id="startTime"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onClick={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
+                                      readOnly={false}
+                                      type="text"
+                                      value="March 10, 2020 4:11 PM"
+                                    />
+                                  </div>
+                                }
+                              >
+                                <Manager
+                                  className="react-datepicker-manager"
+                                >
+                                  <Reference>
+                                    <InnerReference
+                                      setReferenceNode={[Function]}
+                                    >
+                                      <div
+                                        className="react-datepicker-wrapper"
+                                      >
+                                        <div
+                                          className="react-datepicker__input-container"
+                                        >
+                                          <input
+                                            className=""
+                                            disabled={false}
+                                            id="startTime"
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onClick={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyDown={[Function]}
+                                            readOnly={false}
+                                            type="text"
+                                            value="March 10, 2020 4:11 PM"
+                                          />
+                                        </div>
+                                      </div>
+                                    </InnerReference>
+                                  </Reference>
+                                </Manager>
+                              </t>
+                            </t>
+                          </td>
+                          <td>
+                            <t
+                              allowSameDay={false}
+                              customTimeInput={null}
+                              dateFormat="MMMM d, yyyy h:mm aa"
+                              dateFormatCalendar="LLLL yyyy"
+                              disabled={false}
+                              disabledKeyboardNavigation={false}
+                              dropdownMode="scroll"
+                              enableTabLoop={true}
+                              excludeScrollbar={true}
+                              id="endTime"
+                              inlineFocusSelectedMonth={false}
+                              monthsShown={1}
+                              nextMonthButtonLabel="Next Month"
+                              nextYearButtonLabel="Next Year"
+                              onBlur={[Function]}
+                              onCalendarClose={[Function]}
+                              onCalendarOpen={[Function]}
+                              onChange={[Function]}
+                              onClickOutside={[Function]}
+                              onFocus={[Function]}
+                              onInputClick={[Function]}
+                              onInputError={[Function]}
+                              onKeyDown={[Function]}
+                              onMonthChange={[Function]}
+                              onSelect={[Function]}
+                              onYearChange={[Function]}
+                              preventOpenOnFocus={false}
+                              previousMonthButtonLabel="Previous Month"
+                              previousYearButtonLabel="Previous Year"
+                              readOnly={false}
+                              renderDayContents={[Function]}
+                              selected={2020-03-10T11:11:47.232Z}
+                              shouldCloseOnSelect={true}
+                              showMonthYearPicker={false}
+                              showPopperArrow={true}
+                              showPreviousMonths={false}
+                              showQuarterYearPicker={false}
+                              showTimeInput={false}
+                              showTimeSelect={true}
+                              strictParsing={false}
+                              timeCaption="time"
+                              timeFormat="HH:mm"
+                              timeInputLabel="Time"
+                              timeIntervals={15}
+                              withPortal={false}
+                            >
+                              <t
+                                enableTabLoop={true}
+                                hidePopper={true}
+                                popperComponent={null}
+                                popperModifiers={
+                                  Object {
+                                    "preventOverflow": Object {
+                                      "boundariesElement": "viewport",
+                                      "enabled": true,
+                                      "escapeWithReference": true,
+                                    },
+                                  }
+                                }
+                                popperOnKeyDown={[Function]}
+                                popperPlacement="bottom-start"
+                                popperProps={Object {}}
+                                targetComponent={
+                                  <div
+                                    className="react-datepicker__input-container"
+                                  >
+                                    <input
+                                      className=""
+                                      disabled={false}
+                                      id="endTime"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onClick={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
+                                      readOnly={false}
+                                      type="text"
+                                      value="March 10, 2020 4:11 PM"
+                                    />
+                                  </div>
+                                }
+                              >
+                                <Manager
+                                  className="react-datepicker-manager"
+                                >
+                                  <Reference>
+                                    <InnerReference
+                                      setReferenceNode={[Function]}
+                                    >
+                                      <div
+                                        className="react-datepicker-wrapper"
+                                      >
+                                        <div
+                                          className="react-datepicker__input-container"
+                                        >
+                                          <input
+                                            className=""
+                                            disabled={false}
+                                            id="endTime"
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onClick={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyDown={[Function]}
+                                            readOnly={false}
+                                            type="text"
+                                            value="March 10, 2020 4:11 PM"
+                                          />
+                                        </div>
+                                      </div>
+                                    </InnerReference>
+                                  </Reference>
+                                </Manager>
+                              </t>
+                            </t>
+                          </td>
+                        </tr>
+                        <tr
+                          key="3"
+                        >
+                          <td>
+                            Wednesday
+                          </td>
+                          <td>
+                            <t
+                              allowSameDay={false}
+                              customTimeInput={null}
+                              dateFormat="MMMM d, yyyy h:mm aa"
+                              dateFormatCalendar="LLLL yyyy"
+                              disabled={false}
+                              disabledKeyboardNavigation={false}
+                              dropdownMode="scroll"
+                              enableTabLoop={true}
+                              excludeScrollbar={true}
+                              id="startTime"
+                              inlineFocusSelectedMonth={false}
+                              monthsShown={1}
+                              nextMonthButtonLabel="Next Month"
+                              nextYearButtonLabel="Next Year"
+                              onBlur={[Function]}
+                              onCalendarClose={[Function]}
+                              onCalendarOpen={[Function]}
+                              onChange={[Function]}
+                              onClickOutside={[Function]}
+                              onFocus={[Function]}
+                              onInputClick={[Function]}
+                              onInputError={[Function]}
+                              onKeyDown={[Function]}
+                              onMonthChange={[Function]}
+                              onSelect={[Function]}
+                              onYearChange={[Function]}
+                              preventOpenOnFocus={false}
+                              previousMonthButtonLabel="Previous Month"
+                              previousYearButtonLabel="Previous Year"
+                              readOnly={false}
+                              renderDayContents={[Function]}
+                              selected={2020-03-10T11:11:47.232Z}
+                              shouldCloseOnSelect={true}
+                              showMonthYearPicker={false}
+                              showPopperArrow={true}
+                              showPreviousMonths={false}
+                              showQuarterYearPicker={false}
+                              showTimeInput={false}
+                              showTimeSelect={true}
+                              strictParsing={false}
+                              timeCaption="time"
+                              timeFormat="HH:mm"
+                              timeInputLabel="Time"
+                              timeIntervals={15}
+                              withPortal={false}
+                            >
+                              <t
+                                enableTabLoop={true}
+                                hidePopper={true}
+                                popperComponent={null}
+                                popperModifiers={
+                                  Object {
+                                    "preventOverflow": Object {
+                                      "boundariesElement": "viewport",
+                                      "enabled": true,
+                                      "escapeWithReference": true,
+                                    },
+                                  }
+                                }
+                                popperOnKeyDown={[Function]}
+                                popperPlacement="bottom-start"
+                                popperProps={Object {}}
+                                targetComponent={
+                                  <div
+                                    className="react-datepicker__input-container"
+                                  >
+                                    <input
+                                      className=""
+                                      disabled={false}
+                                      id="startTime"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onClick={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
+                                      readOnly={false}
+                                      type="text"
+                                      value="March 10, 2020 4:11 PM"
+                                    />
+                                  </div>
+                                }
+                              >
+                                <Manager
+                                  className="react-datepicker-manager"
+                                >
+                                  <Reference>
+                                    <InnerReference
+                                      setReferenceNode={[Function]}
+                                    >
+                                      <div
+                                        className="react-datepicker-wrapper"
+                                      >
+                                        <div
+                                          className="react-datepicker__input-container"
+                                        >
+                                          <input
+                                            className=""
+                                            disabled={false}
+                                            id="startTime"
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onClick={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyDown={[Function]}
+                                            readOnly={false}
+                                            type="text"
+                                            value="March 10, 2020 4:11 PM"
+                                          />
+                                        </div>
+                                      </div>
+                                    </InnerReference>
+                                  </Reference>
+                                </Manager>
+                              </t>
+                            </t>
+                          </td>
+                          <td>
+                            <t
+                              allowSameDay={false}
+                              customTimeInput={null}
+                              dateFormat="MMMM d, yyyy h:mm aa"
+                              dateFormatCalendar="LLLL yyyy"
+                              disabled={false}
+                              disabledKeyboardNavigation={false}
+                              dropdownMode="scroll"
+                              enableTabLoop={true}
+                              excludeScrollbar={true}
+                              id="endTime"
+                              inlineFocusSelectedMonth={false}
+                              monthsShown={1}
+                              nextMonthButtonLabel="Next Month"
+                              nextYearButtonLabel="Next Year"
+                              onBlur={[Function]}
+                              onCalendarClose={[Function]}
+                              onCalendarOpen={[Function]}
+                              onChange={[Function]}
+                              onClickOutside={[Function]}
+                              onFocus={[Function]}
+                              onInputClick={[Function]}
+                              onInputError={[Function]}
+                              onKeyDown={[Function]}
+                              onMonthChange={[Function]}
+                              onSelect={[Function]}
+                              onYearChange={[Function]}
+                              preventOpenOnFocus={false}
+                              previousMonthButtonLabel="Previous Month"
+                              previousYearButtonLabel="Previous Year"
+                              readOnly={false}
+                              renderDayContents={[Function]}
+                              selected={2020-03-10T11:11:47.232Z}
+                              shouldCloseOnSelect={true}
+                              showMonthYearPicker={false}
+                              showPopperArrow={true}
+                              showPreviousMonths={false}
+                              showQuarterYearPicker={false}
+                              showTimeInput={false}
+                              showTimeSelect={true}
+                              strictParsing={false}
+                              timeCaption="time"
+                              timeFormat="HH:mm"
+                              timeInputLabel="Time"
+                              timeIntervals={15}
+                              withPortal={false}
+                            >
+                              <t
+                                enableTabLoop={true}
+                                hidePopper={true}
+                                popperComponent={null}
+                                popperModifiers={
+                                  Object {
+                                    "preventOverflow": Object {
+                                      "boundariesElement": "viewport",
+                                      "enabled": true,
+                                      "escapeWithReference": true,
+                                    },
+                                  }
+                                }
+                                popperOnKeyDown={[Function]}
+                                popperPlacement="bottom-start"
+                                popperProps={Object {}}
+                                targetComponent={
+                                  <div
+                                    className="react-datepicker__input-container"
+                                  >
+                                    <input
+                                      className=""
+                                      disabled={false}
+                                      id="endTime"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onClick={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
+                                      readOnly={false}
+                                      type="text"
+                                      value="March 10, 2020 4:11 PM"
+                                    />
+                                  </div>
+                                }
+                              >
+                                <Manager
+                                  className="react-datepicker-manager"
+                                >
+                                  <Reference>
+                                    <InnerReference
+                                      setReferenceNode={[Function]}
+                                    >
+                                      <div
+                                        className="react-datepicker-wrapper"
+                                      >
+                                        <div
+                                          className="react-datepicker__input-container"
+                                        >
+                                          <input
+                                            className=""
+                                            disabled={false}
+                                            id="endTime"
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onClick={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyDown={[Function]}
+                                            readOnly={false}
+                                            type="text"
+                                            value="March 10, 2020 4:11 PM"
+                                          />
+                                        </div>
+                                      </div>
+                                    </InnerReference>
+                                  </Reference>
+                                </Manager>
+                              </t>
+                            </t>
+                          </td>
+                        </tr>
+                        <tr
+                          key="4"
+                        >
+                          <td>
+                            Thursday
+                          </td>
+                          <td>
+                            <t
+                              allowSameDay={false}
+                              customTimeInput={null}
+                              dateFormat="MMMM d, yyyy h:mm aa"
+                              dateFormatCalendar="LLLL yyyy"
+                              disabled={false}
+                              disabledKeyboardNavigation={false}
+                              dropdownMode="scroll"
+                              enableTabLoop={true}
+                              excludeScrollbar={true}
+                              id="startTime"
+                              inlineFocusSelectedMonth={false}
+                              monthsShown={1}
+                              nextMonthButtonLabel="Next Month"
+                              nextYearButtonLabel="Next Year"
+                              onBlur={[Function]}
+                              onCalendarClose={[Function]}
+                              onCalendarOpen={[Function]}
+                              onChange={[Function]}
+                              onClickOutside={[Function]}
+                              onFocus={[Function]}
+                              onInputClick={[Function]}
+                              onInputError={[Function]}
+                              onKeyDown={[Function]}
+                              onMonthChange={[Function]}
+                              onSelect={[Function]}
+                              onYearChange={[Function]}
+                              preventOpenOnFocus={false}
+                              previousMonthButtonLabel="Previous Month"
+                              previousYearButtonLabel="Previous Year"
+                              readOnly={false}
+                              renderDayContents={[Function]}
+                              selected={2020-03-10T11:11:47.232Z}
+                              shouldCloseOnSelect={true}
+                              showMonthYearPicker={false}
+                              showPopperArrow={true}
+                              showPreviousMonths={false}
+                              showQuarterYearPicker={false}
+                              showTimeInput={false}
+                              showTimeSelect={true}
+                              strictParsing={false}
+                              timeCaption="time"
+                              timeFormat="HH:mm"
+                              timeInputLabel="Time"
+                              timeIntervals={15}
+                              withPortal={false}
+                            >
+                              <t
+                                enableTabLoop={true}
+                                hidePopper={true}
+                                popperComponent={null}
+                                popperModifiers={
+                                  Object {
+                                    "preventOverflow": Object {
+                                      "boundariesElement": "viewport",
+                                      "enabled": true,
+                                      "escapeWithReference": true,
+                                    },
+                                  }
+                                }
+                                popperOnKeyDown={[Function]}
+                                popperPlacement="bottom-start"
+                                popperProps={Object {}}
+                                targetComponent={
+                                  <div
+                                    className="react-datepicker__input-container"
+                                  >
+                                    <input
+                                      className=""
+                                      disabled={false}
+                                      id="startTime"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onClick={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
+                                      readOnly={false}
+                                      type="text"
+                                      value="March 10, 2020 4:11 PM"
+                                    />
+                                  </div>
+                                }
+                              >
+                                <Manager
+                                  className="react-datepicker-manager"
+                                >
+                                  <Reference>
+                                    <InnerReference
+                                      setReferenceNode={[Function]}
+                                    >
+                                      <div
+                                        className="react-datepicker-wrapper"
+                                      >
+                                        <div
+                                          className="react-datepicker__input-container"
+                                        >
+                                          <input
+                                            className=""
+                                            disabled={false}
+                                            id="startTime"
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onClick={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyDown={[Function]}
+                                            readOnly={false}
+                                            type="text"
+                                            value="March 10, 2020 4:11 PM"
+                                          />
+                                        </div>
+                                      </div>
+                                    </InnerReference>
+                                  </Reference>
+                                </Manager>
+                              </t>
+                            </t>
+                          </td>
+                          <td>
+                            <t
+                              allowSameDay={false}
+                              customTimeInput={null}
+                              dateFormat="MMMM d, yyyy h:mm aa"
+                              dateFormatCalendar="LLLL yyyy"
+                              disabled={false}
+                              disabledKeyboardNavigation={false}
+                              dropdownMode="scroll"
+                              enableTabLoop={true}
+                              excludeScrollbar={true}
+                              id="endTime"
+                              inlineFocusSelectedMonth={false}
+                              monthsShown={1}
+                              nextMonthButtonLabel="Next Month"
+                              nextYearButtonLabel="Next Year"
+                              onBlur={[Function]}
+                              onCalendarClose={[Function]}
+                              onCalendarOpen={[Function]}
+                              onChange={[Function]}
+                              onClickOutside={[Function]}
+                              onFocus={[Function]}
+                              onInputClick={[Function]}
+                              onInputError={[Function]}
+                              onKeyDown={[Function]}
+                              onMonthChange={[Function]}
+                              onSelect={[Function]}
+                              onYearChange={[Function]}
+                              preventOpenOnFocus={false}
+                              previousMonthButtonLabel="Previous Month"
+                              previousYearButtonLabel="Previous Year"
+                              readOnly={false}
+                              renderDayContents={[Function]}
+                              selected={2020-03-10T11:11:47.232Z}
+                              shouldCloseOnSelect={true}
+                              showMonthYearPicker={false}
+                              showPopperArrow={true}
+                              showPreviousMonths={false}
+                              showQuarterYearPicker={false}
+                              showTimeInput={false}
+                              showTimeSelect={true}
+                              strictParsing={false}
+                              timeCaption="time"
+                              timeFormat="HH:mm"
+                              timeInputLabel="Time"
+                              timeIntervals={15}
+                              withPortal={false}
+                            >
+                              <t
+                                enableTabLoop={true}
+                                hidePopper={true}
+                                popperComponent={null}
+                                popperModifiers={
+                                  Object {
+                                    "preventOverflow": Object {
+                                      "boundariesElement": "viewport",
+                                      "enabled": true,
+                                      "escapeWithReference": true,
+                                    },
+                                  }
+                                }
+                                popperOnKeyDown={[Function]}
+                                popperPlacement="bottom-start"
+                                popperProps={Object {}}
+                                targetComponent={
+                                  <div
+                                    className="react-datepicker__input-container"
+                                  >
+                                    <input
+                                      className=""
+                                      disabled={false}
+                                      id="endTime"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onClick={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
+                                      readOnly={false}
+                                      type="text"
+                                      value="March 10, 2020 4:11 PM"
+                                    />
+                                  </div>
+                                }
+                              >
+                                <Manager
+                                  className="react-datepicker-manager"
+                                >
+                                  <Reference>
+                                    <InnerReference
+                                      setReferenceNode={[Function]}
+                                    >
+                                      <div
+                                        className="react-datepicker-wrapper"
+                                      >
+                                        <div
+                                          className="react-datepicker__input-container"
+                                        >
+                                          <input
+                                            className=""
+                                            disabled={false}
+                                            id="endTime"
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onClick={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyDown={[Function]}
+                                            readOnly={false}
+                                            type="text"
+                                            value="March 10, 2020 4:11 PM"
+                                          />
+                                        </div>
+                                      </div>
+                                    </InnerReference>
+                                  </Reference>
+                                </Manager>
+                              </t>
+                            </t>
+                          </td>
+                        </tr>
+                        <tr
+                          key="5"
+                        >
+                          <td>
+                            Friday
+                          </td>
+                          <td>
+                            <t
+                              allowSameDay={false}
+                              customTimeInput={null}
+                              dateFormat="MMMM d, yyyy h:mm aa"
+                              dateFormatCalendar="LLLL yyyy"
+                              disabled={false}
+                              disabledKeyboardNavigation={false}
+                              dropdownMode="scroll"
+                              enableTabLoop={true}
+                              excludeScrollbar={true}
+                              id="startTime"
+                              inlineFocusSelectedMonth={false}
+                              monthsShown={1}
+                              nextMonthButtonLabel="Next Month"
+                              nextYearButtonLabel="Next Year"
+                              onBlur={[Function]}
+                              onCalendarClose={[Function]}
+                              onCalendarOpen={[Function]}
+                              onChange={[Function]}
+                              onClickOutside={[Function]}
+                              onFocus={[Function]}
+                              onInputClick={[Function]}
+                              onInputError={[Function]}
+                              onKeyDown={[Function]}
+                              onMonthChange={[Function]}
+                              onSelect={[Function]}
+                              onYearChange={[Function]}
+                              preventOpenOnFocus={false}
+                              previousMonthButtonLabel="Previous Month"
+                              previousYearButtonLabel="Previous Year"
+                              readOnly={false}
+                              renderDayContents={[Function]}
+                              selected={2020-03-10T11:11:47.232Z}
+                              shouldCloseOnSelect={true}
+                              showMonthYearPicker={false}
+                              showPopperArrow={true}
+                              showPreviousMonths={false}
+                              showQuarterYearPicker={false}
+                              showTimeInput={false}
+                              showTimeSelect={true}
+                              strictParsing={false}
+                              timeCaption="time"
+                              timeFormat="HH:mm"
+                              timeInputLabel="Time"
+                              timeIntervals={15}
+                              withPortal={false}
+                            >
+                              <t
+                                enableTabLoop={true}
+                                hidePopper={true}
+                                popperComponent={null}
+                                popperModifiers={
+                                  Object {
+                                    "preventOverflow": Object {
+                                      "boundariesElement": "viewport",
+                                      "enabled": true,
+                                      "escapeWithReference": true,
+                                    },
+                                  }
+                                }
+                                popperOnKeyDown={[Function]}
+                                popperPlacement="bottom-start"
+                                popperProps={Object {}}
+                                targetComponent={
+                                  <div
+                                    className="react-datepicker__input-container"
+                                  >
+                                    <input
+                                      className=""
+                                      disabled={false}
+                                      id="startTime"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onClick={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
+                                      readOnly={false}
+                                      type="text"
+                                      value="March 10, 2020 4:11 PM"
+                                    />
+                                  </div>
+                                }
+                              >
+                                <Manager
+                                  className="react-datepicker-manager"
+                                >
+                                  <Reference>
+                                    <InnerReference
+                                      setReferenceNode={[Function]}
+                                    >
+                                      <div
+                                        className="react-datepicker-wrapper"
+                                      >
+                                        <div
+                                          className="react-datepicker__input-container"
+                                        >
+                                          <input
+                                            className=""
+                                            disabled={false}
+                                            id="startTime"
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onClick={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyDown={[Function]}
+                                            readOnly={false}
+                                            type="text"
+                                            value="March 10, 2020 4:11 PM"
+                                          />
+                                        </div>
+                                      </div>
+                                    </InnerReference>
+                                  </Reference>
+                                </Manager>
+                              </t>
+                            </t>
+                          </td>
+                          <td>
+                            <t
+                              allowSameDay={false}
+                              customTimeInput={null}
+                              dateFormat="MMMM d, yyyy h:mm aa"
+                              dateFormatCalendar="LLLL yyyy"
+                              disabled={false}
+                              disabledKeyboardNavigation={false}
+                              dropdownMode="scroll"
+                              enableTabLoop={true}
+                              excludeScrollbar={true}
+                              id="endTime"
+                              inlineFocusSelectedMonth={false}
+                              monthsShown={1}
+                              nextMonthButtonLabel="Next Month"
+                              nextYearButtonLabel="Next Year"
+                              onBlur={[Function]}
+                              onCalendarClose={[Function]}
+                              onCalendarOpen={[Function]}
+                              onChange={[Function]}
+                              onClickOutside={[Function]}
+                              onFocus={[Function]}
+                              onInputClick={[Function]}
+                              onInputError={[Function]}
+                              onKeyDown={[Function]}
+                              onMonthChange={[Function]}
+                              onSelect={[Function]}
+                              onYearChange={[Function]}
+                              preventOpenOnFocus={false}
+                              previousMonthButtonLabel="Previous Month"
+                              previousYearButtonLabel="Previous Year"
+                              readOnly={false}
+                              renderDayContents={[Function]}
+                              selected={2020-03-10T11:11:47.232Z}
+                              shouldCloseOnSelect={true}
+                              showMonthYearPicker={false}
+                              showPopperArrow={true}
+                              showPreviousMonths={false}
+                              showQuarterYearPicker={false}
+                              showTimeInput={false}
+                              showTimeSelect={true}
+                              strictParsing={false}
+                              timeCaption="time"
+                              timeFormat="HH:mm"
+                              timeInputLabel="Time"
+                              timeIntervals={15}
+                              withPortal={false}
+                            >
+                              <t
+                                enableTabLoop={true}
+                                hidePopper={true}
+                                popperComponent={null}
+                                popperModifiers={
+                                  Object {
+                                    "preventOverflow": Object {
+                                      "boundariesElement": "viewport",
+                                      "enabled": true,
+                                      "escapeWithReference": true,
+                                    },
+                                  }
+                                }
+                                popperOnKeyDown={[Function]}
+                                popperPlacement="bottom-start"
+                                popperProps={Object {}}
+                                targetComponent={
+                                  <div
+                                    className="react-datepicker__input-container"
+                                  >
+                                    <input
+                                      className=""
+                                      disabled={false}
+                                      id="endTime"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onClick={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
+                                      readOnly={false}
+                                      type="text"
+                                      value="March 10, 2020 4:11 PM"
+                                    />
+                                  </div>
+                                }
+                              >
+                                <Manager
+                                  className="react-datepicker-manager"
+                                >
+                                  <Reference>
+                                    <InnerReference
+                                      setReferenceNode={[Function]}
+                                    >
+                                      <div
+                                        className="react-datepicker-wrapper"
+                                      >
+                                        <div
+                                          className="react-datepicker__input-container"
+                                        >
+                                          <input
+                                            className=""
+                                            disabled={false}
+                                            id="endTime"
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onClick={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyDown={[Function]}
+                                            readOnly={false}
+                                            type="text"
+                                            value="March 10, 2020 4:11 PM"
+                                          />
+                                        </div>
+                                      </div>
+                                    </InnerReference>
+                                  </Reference>
+                                </Manager>
+                              </t>
+                            </t>
+                          </td>
+                        </tr>
+                      </RenderRow>
+                    </tbody>
+                  </table>
+                </ForwardRef>
+                <FormGroup>
+                  <div
+                    className="form-group"
+                  >
+                    <Button
+                      active={false}
+                      data-testid="submitButton"
+                      disabled={false}
+                      type="submit"
+                      variant="primary"
+                    >
+                      <button
+                        className="btn btn-primary"
+                        data-testid="submitButton"
+                        disabled={false}
+                        type="submit"
+                      >
+                        Submit
+                      </button>
+                    </Button>
+                  </div>
+                </FormGroup>
+              </form>
+            </Form>
+          </AssignTable>
+          <Row
+            noGutters={false}
+          >
+            <div
+              className="row"
+            >
+              <Col
+                md={2}
+              >
+                <div
+                  className="col-md-2"
+                />
+              </Col>
+              <Col
+                md={8}
+              >
+                <div
+                  className="col-md-8"
+                />
+              </Col>
+              <Col
+                md={2}
+              >
+                <div
+                  className="col-md-2"
+                />
+              </Col>
+            </div>
+          </Row>
+        </div>
+      </styled.div>
+    </AssignShift>
+  </Router>
+</MemoryRouter>
+`;
+
+exports[`<AssignShift /> Component mounting component 2`] = `
+<MemoryRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "raw4df",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "raw4df",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <AssignShift
+      location={
+        Object {
+          "state": Object {
+            "user": Object {
+              "email": "ali@gmail.com",
+            },
+          },
+        }
+      }
+      role="manager"
+    >
+      <withRouter(Navigationbar)
+        role="manager"
+      >
+        <Navigationbar
+          history={
+            Object {
+              "action": "POP",
+              "block": [Function],
+              "canGo": [Function],
+              "createHref": [Function],
+              "entries": Array [
+                Object {
+                  "hash": "",
+                  "key": "raw4df",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                },
+              ],
+              "go": [Function],
+              "goBack": [Function],
+              "goForward": [Function],
+              "index": 0,
+              "length": 1,
+              "listen": [Function],
+              "location": Object {
+                "hash": "",
+                "key": "raw4df",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              },
+              "push": [Function],
+              "replace": [Function],
+            }
+          }
+          location={
+            Object {
+              "hash": "",
+              "key": "raw4df",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            }
+          }
+          match={
+            Object {
+              "isExact": true,
+              "params": Object {},
+              "path": "/",
+              "url": "/",
+            }
+          }
+          role="manager"
+        >
+          <Navbar
+            bg="light"
+            collapseOnSelect={false}
+            expand="lg"
+            variant="light"
+          >
+            <nav
+              className="navbar navbar-expand-lg navbar-light bg-light"
+            >
+              <NavbarBrand
+                onClick={[Function]}
+              >
+                <span
+                  className="navbar-brand"
+                  onClick={[Function]}
+                >
+                  Employee Management System
+                </span>
+              </NavbarBrand>
+              <NavbarToggle
+                aria-controls="basic-navbar-nav"
+                label="Toggle navigation"
+              >
+                <button
+                  aria-controls="basic-navbar-nav"
+                  aria-label="Toggle navigation"
+                  className="navbar-toggler collapsed"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <span
+                    className="navbar-toggler-icon"
+                  />
+                </button>
+              </NavbarToggle>
+              <NavbarCollapse
+                id="basic-navbar-nav"
+              >
+                <Collapse
+                  appear={false}
+                  dimension="height"
+                  getDimensionValue={[Function]}
+                  id="basic-navbar-nav"
+                  in={false}
+                  mountOnEnter={false}
+                  timeout={300}
+                  unmountOnExit={false}
+                >
+                  <Transition
+                    addEndListener={[Function]}
+                    appear={false}
+                    aria-expanded={null}
+                    enter={true}
+                    exit={true}
+                    id="basic-navbar-nav"
+                    in={false}
+                    mountOnEnter={false}
+                    onEnter={[Function]}
+                    onEntered={[Function]}
+                    onEntering={[Function]}
+                    onExit={[Function]}
+                    onExited={[Function]}
+                    onExiting={[Function]}
+                    timeout={300}
+                    unmountOnExit={false}
+                  >
+                    <div
+                      aria-expanded={null}
+                      className="navbar-collapse collapse"
+                      id="basic-navbar-nav"
+                    >
+                      <Nav
+                        className="mr-auto"
+                        fill={false}
+                        justify={false}
+                      >
+                        <ForwardRef
+                          as="div"
+                          className="mr-auto navbar-nav"
+                          onSelect={[Function]}
+                        >
+                          <div
+                            className="mr-auto navbar-nav"
+                            onKeyDown={[Function]}
+                          >
+                            <BrowserRouter>
+                              <Router
+                                history={
+                                  Object {
+                                    "action": "POP",
+                                    "block": [Function],
+                                    "createHref": [Function],
+                                    "go": [Function],
+                                    "goBack": [Function],
+                                    "goForward": [Function],
+                                    "length": 1,
+                                    "listen": [Function],
+                                    "location": Object {
+                                      "hash": "",
+                                      "pathname": "blank",
+                                      "search": "",
+                                      "state": undefined,
+                                    },
+                                    "push": [Function],
+                                    "replace": [Function],
+                                  }
+                                }
+                              >
+                                <Link
+                                  onClick={[Function]}
+                                  to="/createprofile"
+                                >
+                                  <LinkAnchor
+                                    href="/createprofile"
+                                    navigate={[Function]}
+                                    onClick={[Function]}
+                                  >
+                                    <a
+                                      href="/createprofile"
+                                      onClick={[Function]}
+                                    >
+                                      Add Developer
+                                    </a>
+                                  </LinkAnchor>
+                                </Link>
+                                <Link
+                                  onClick={[Function]}
+                                  to="/alldevelopers"
+                                >
+                                  <LinkAnchor
+                                    href="/alldevelopers"
+                                    navigate={[Function]}
+                                    onClick={[Function]}
+                                  >
+                                    <a
+                                      href="/alldevelopers"
+                                      onClick={[Function]}
+                                    >
+                                      All Developer
+                                    </a>
+                                  </LinkAnchor>
+                                </Link>
+                              </Router>
+                            </BrowserRouter>
+                          </div>
+                        </ForwardRef>
+                      </Nav>
+                      <Nav
+                        fill={false}
+                        justify={false}
+                      >
+                        <ForwardRef
+                          as="div"
+                          className="navbar-nav"
+                          onSelect={[Function]}
+                        >
+                          <div
+                            className="navbar-nav"
+                            onKeyDown={[Function]}
+                          >
+                            <Button
+                              active={false}
+                              disabled={false}
+                              onClick={[Function]}
+                              type="button"
+                              variant="outline-info"
+                            >
+                              <button
+                                className="btn btn-outline-info"
+                                disabled={false}
+                                onClick={[Function]}
+                                type="button"
+                              >
+                                Logout
+                              </button>
+                            </Button>
+                          </div>
+                        </ForwardRef>
+                      </Nav>
+                    </div>
+                  </Transition>
+                </Collapse>
+              </NavbarCollapse>
+            </nav>
+          </Navbar>
+        </Navigationbar>
+      </withRouter(Navigationbar)>
+      <styled.div>
+        <div
+          className="sc-AxiKw gA-drMl"
+        >
+          <styled.h1>
+            <h1
+              className="sc-AxhCb jQvLNr"
+            >
+              Assign Shift To (
+              )
+            </h1>
+          </styled.h1>
+          <AssignTable
+            days={
+              Array [
+                Object {
+                  "day": "Monday",
+                  "endTime": 2020-03-10T11:11:00.000Z,
+                  "id": 1,
+                  "startTime": 2020-03-10T11:11:00.000Z,
+                },
+                Object {
+                  "day": "Tuesday",
+                  "endTime": 2020-03-10T11:11:47.232Z,
+                  "id": 2,
+                  "startTime": 2020-03-10T11:11:47.232Z,
+                },
+                Object {
+                  "day": "Wednesday",
+                  "endTime": 2020-03-10T11:11:47.232Z,
+                  "id": 3,
+                  "startTime": 2020-03-10T11:11:47.232Z,
+                },
+                Object {
+                  "day": "Thursday",
+                  "endTime": 2020-03-10T11:11:47.232Z,
+                  "id": 4,
+                  "startTime": 2020-03-10T11:11:47.232Z,
+                },
+                Object {
+                  "day": "Friday",
+                  "endTime": 2020-03-10T11:11:47.232Z,
+                  "id": 5,
+                  "startTime": 2020-03-10T11:11:47.232Z,
+                },
+              ]
+            }
+            onChange={[Function]}
+            onSubmit={[Function]}
+          >
+            <Form
+              inline={false}
+              onSubmit={[Function]}
+            >
+              <form
+                className=""
+                onSubmit={[Function]}
+              >
+                <ForwardRef
+                  bordered={true}
+                  hover={true}
+                  striped={true}
+                >
+                  <table
+                    className="table table-striped table-bordered table-hover"
+                  >
+                    <thead>
+                      <tr>
+                        <th>
+                          Day
+                        </th>
+                        <th>
+                          Start Time
+                        </th>
+                        <th>
+                          End Time
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <RenderRow
+                        days={
+                          Array [
+                            Object {
+                              "day": "Monday",
+                              "endTime": 2020-03-10T11:11:00.000Z,
+                              "id": 1,
+                              "startTime": 2020-03-10T11:11:00.000Z,
+                            },
+                            Object {
+                              "day": "Tuesday",
+                              "endTime": 2020-03-10T11:11:47.232Z,
+                              "id": 2,
+                              "startTime": 2020-03-10T11:11:47.232Z,
+                            },
+                            Object {
+                              "day": "Wednesday",
+                              "endTime": 2020-03-10T11:11:47.232Z,
+                              "id": 3,
+                              "startTime": 2020-03-10T11:11:47.232Z,
+                            },
+                            Object {
+                              "day": "Thursday",
+                              "endTime": 2020-03-10T11:11:47.232Z,
+                              "id": 4,
+                              "startTime": 2020-03-10T11:11:47.232Z,
+                            },
+                            Object {
+                              "day": "Friday",
+                              "endTime": 2020-03-10T11:11:47.232Z,
+                              "id": 5,
+                              "startTime": 2020-03-10T11:11:47.232Z,
+                            },
+                          ]
+                        }
+                        onChange={[Function]}
+                      >
+                        <tr
+                          key="1"
+                        >
+                          <td>
+                            Monday
+                          </td>
+                          <td>
+                            <t
+                              allowSameDay={false}
+                              customTimeInput={null}
+                              dateFormat="MMMM d, yyyy h:mm aa"
+                              dateFormatCalendar="LLLL yyyy"
+                              disabled={false}
+                              disabledKeyboardNavigation={false}
+                              dropdownMode="scroll"
+                              enableTabLoop={true}
+                              excludeScrollbar={true}
+                              id="startTime"
+                              inlineFocusSelectedMonth={false}
+                              monthsShown={1}
+                              nextMonthButtonLabel="Next Month"
+                              nextYearButtonLabel="Next Year"
+                              onBlur={[Function]}
+                              onCalendarClose={[Function]}
+                              onCalendarOpen={[Function]}
+                              onChange={[Function]}
+                              onClickOutside={[Function]}
+                              onFocus={[Function]}
+                              onInputClick={[Function]}
+                              onInputError={[Function]}
+                              onKeyDown={[Function]}
+                              onMonthChange={[Function]}
+                              onSelect={[Function]}
+                              onYearChange={[Function]}
+                              preventOpenOnFocus={false}
+                              previousMonthButtonLabel="Previous Month"
+                              previousYearButtonLabel="Previous Year"
+                              readOnly={false}
+                              renderDayContents={[Function]}
+                              selected={2020-03-10T11:11:00.000Z}
+                              shouldCloseOnSelect={true}
+                              showMonthYearPicker={false}
+                              showPopperArrow={true}
+                              showPreviousMonths={false}
+                              showQuarterYearPicker={false}
+                              showTimeInput={false}
+                              showTimeSelect={true}
+                              strictParsing={false}
+                              timeCaption="time"
+                              timeFormat="HH:mm"
+                              timeInputLabel="Time"
+                              timeIntervals={15}
+                              withPortal={false}
+                            >
+                              <t
+                                enableTabLoop={true}
+                                hidePopper={true}
+                                popperComponent={null}
+                                popperModifiers={
+                                  Object {
+                                    "preventOverflow": Object {
+                                      "boundariesElement": "viewport",
+                                      "enabled": true,
+                                      "escapeWithReference": true,
+                                    },
+                                  }
+                                }
+                                popperOnKeyDown={[Function]}
+                                popperPlacement="bottom-start"
+                                popperProps={Object {}}
+                                targetComponent={
+                                  <div
+                                    className="react-datepicker__input-container"
+                                  >
+                                    <input
+                                      className=""
+                                      disabled={false}
+                                      id="startTime"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onClick={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
+                                      readOnly={false}
+                                      type="text"
+                                      value="March 10, 2020 4:11 PM"
+                                    />
+                                  </div>
+                                }
+                              >
+                                <Manager
+                                  className="react-datepicker-manager"
+                                >
+                                  <Reference>
+                                    <InnerReference
+                                      setReferenceNode={[Function]}
+                                    >
+                                      <div
+                                        className="react-datepicker-wrapper"
+                                      >
+                                        <div
+                                          className="react-datepicker__input-container"
+                                        >
+                                          <input
+                                            className=""
+                                            disabled={false}
+                                            id="startTime"
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onClick={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyDown={[Function]}
+                                            readOnly={false}
+                                            type="text"
+                                            value="March 10, 2020 4:11 PM"
+                                          />
+                                        </div>
+                                      </div>
+                                    </InnerReference>
+                                  </Reference>
+                                </Manager>
+                              </t>
+                            </t>
+                          </td>
+                          <td>
+                            <t
+                              allowSameDay={false}
+                              customTimeInput={null}
+                              dateFormat="MMMM d, yyyy h:mm aa"
+                              dateFormatCalendar="LLLL yyyy"
+                              disabled={false}
+                              disabledKeyboardNavigation={false}
+                              dropdownMode="scroll"
+                              enableTabLoop={true}
+                              excludeScrollbar={true}
+                              id="endTime"
+                              inlineFocusSelectedMonth={false}
+                              monthsShown={1}
+                              nextMonthButtonLabel="Next Month"
+                              nextYearButtonLabel="Next Year"
+                              onBlur={[Function]}
+                              onCalendarClose={[Function]}
+                              onCalendarOpen={[Function]}
+                              onChange={[Function]}
+                              onClickOutside={[Function]}
+                              onFocus={[Function]}
+                              onInputClick={[Function]}
+                              onInputError={[Function]}
+                              onKeyDown={[Function]}
+                              onMonthChange={[Function]}
+                              onSelect={[Function]}
+                              onYearChange={[Function]}
+                              preventOpenOnFocus={false}
+                              previousMonthButtonLabel="Previous Month"
+                              previousYearButtonLabel="Previous Year"
+                              readOnly={false}
+                              renderDayContents={[Function]}
+                              selected={2020-03-10T11:11:00.000Z}
+                              shouldCloseOnSelect={true}
+                              showMonthYearPicker={false}
+                              showPopperArrow={true}
+                              showPreviousMonths={false}
+                              showQuarterYearPicker={false}
+                              showTimeInput={false}
+                              showTimeSelect={true}
+                              strictParsing={false}
+                              timeCaption="time"
+                              timeFormat="HH:mm"
+                              timeInputLabel="Time"
+                              timeIntervals={15}
+                              withPortal={false}
+                            >
+                              <t
+                                enableTabLoop={true}
+                                hidePopper={true}
+                                popperComponent={null}
+                                popperModifiers={
+                                  Object {
+                                    "preventOverflow": Object {
+                                      "boundariesElement": "viewport",
+                                      "enabled": true,
+                                      "escapeWithReference": true,
+                                    },
+                                  }
+                                }
+                                popperOnKeyDown={[Function]}
+                                popperPlacement="bottom-start"
+                                popperProps={Object {}}
+                                targetComponent={
+                                  <div
+                                    className="react-datepicker__input-container"
+                                  >
+                                    <input
+                                      className=""
+                                      disabled={false}
+                                      id="endTime"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onClick={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
+                                      readOnly={false}
+                                      type="text"
+                                      value="March 10, 2020 4:11 PM"
+                                    />
+                                  </div>
+                                }
+                              >
+                                <Manager
+                                  className="react-datepicker-manager"
+                                >
+                                  <Reference>
+                                    <InnerReference
+                                      setReferenceNode={[Function]}
+                                    >
+                                      <div
+                                        className="react-datepicker-wrapper"
+                                      >
+                                        <div
+                                          className="react-datepicker__input-container"
+                                        >
+                                          <input
+                                            className=""
+                                            disabled={false}
+                                            id="endTime"
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onClick={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyDown={[Function]}
+                                            readOnly={false}
+                                            type="text"
+                                            value="March 10, 2020 4:11 PM"
+                                          />
+                                        </div>
+                                      </div>
+                                    </InnerReference>
+                                  </Reference>
+                                </Manager>
+                              </t>
+                            </t>
+                          </td>
+                        </tr>
+                        <tr
+                          key="2"
+                        >
+                          <td>
+                            Tuesday
+                          </td>
+                          <td>
+                            <t
+                              allowSameDay={false}
+                              customTimeInput={null}
+                              dateFormat="MMMM d, yyyy h:mm aa"
+                              dateFormatCalendar="LLLL yyyy"
+                              disabled={false}
+                              disabledKeyboardNavigation={false}
+                              dropdownMode="scroll"
+                              enableTabLoop={true}
+                              excludeScrollbar={true}
+                              id="startTime"
+                              inlineFocusSelectedMonth={false}
+                              monthsShown={1}
+                              nextMonthButtonLabel="Next Month"
+                              nextYearButtonLabel="Next Year"
+                              onBlur={[Function]}
+                              onCalendarClose={[Function]}
+                              onCalendarOpen={[Function]}
+                              onChange={[Function]}
+                              onClickOutside={[Function]}
+                              onFocus={[Function]}
+                              onInputClick={[Function]}
+                              onInputError={[Function]}
+                              onKeyDown={[Function]}
+                              onMonthChange={[Function]}
+                              onSelect={[Function]}
+                              onYearChange={[Function]}
+                              preventOpenOnFocus={false}
+                              previousMonthButtonLabel="Previous Month"
+                              previousYearButtonLabel="Previous Year"
+                              readOnly={false}
+                              renderDayContents={[Function]}
+                              selected={2020-03-10T11:11:47.232Z}
+                              shouldCloseOnSelect={true}
+                              showMonthYearPicker={false}
+                              showPopperArrow={true}
+                              showPreviousMonths={false}
+                              showQuarterYearPicker={false}
+                              showTimeInput={false}
+                              showTimeSelect={true}
+                              strictParsing={false}
+                              timeCaption="time"
+                              timeFormat="HH:mm"
+                              timeInputLabel="Time"
+                              timeIntervals={15}
+                              withPortal={false}
+                            >
+                              <t
+                                enableTabLoop={true}
+                                hidePopper={true}
+                                popperComponent={null}
+                                popperModifiers={
+                                  Object {
+                                    "preventOverflow": Object {
+                                      "boundariesElement": "viewport",
+                                      "enabled": true,
+                                      "escapeWithReference": true,
+                                    },
+                                  }
+                                }
+                                popperOnKeyDown={[Function]}
+                                popperPlacement="bottom-start"
+                                popperProps={Object {}}
+                                targetComponent={
+                                  <div
+                                    className="react-datepicker__input-container"
+                                  >
+                                    <input
+                                      className=""
+                                      disabled={false}
+                                      id="startTime"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onClick={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
+                                      readOnly={false}
+                                      type="text"
+                                      value="March 10, 2020 4:11 PM"
+                                    />
+                                  </div>
+                                }
+                              >
+                                <Manager
+                                  className="react-datepicker-manager"
+                                >
+                                  <Reference>
+                                    <InnerReference
+                                      setReferenceNode={[Function]}
+                                    >
+                                      <div
+                                        className="react-datepicker-wrapper"
+                                      >
+                                        <div
+                                          className="react-datepicker__input-container"
+                                        >
+                                          <input
+                                            className=""
+                                            disabled={false}
+                                            id="startTime"
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onClick={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyDown={[Function]}
+                                            readOnly={false}
+                                            type="text"
+                                            value="March 10, 2020 4:11 PM"
+                                          />
+                                        </div>
+                                      </div>
+                                    </InnerReference>
+                                  </Reference>
+                                </Manager>
+                              </t>
+                            </t>
+                          </td>
+                          <td>
+                            <t
+                              allowSameDay={false}
+                              customTimeInput={null}
+                              dateFormat="MMMM d, yyyy h:mm aa"
+                              dateFormatCalendar="LLLL yyyy"
+                              disabled={false}
+                              disabledKeyboardNavigation={false}
+                              dropdownMode="scroll"
+                              enableTabLoop={true}
+                              excludeScrollbar={true}
+                              id="endTime"
+                              inlineFocusSelectedMonth={false}
+                              monthsShown={1}
+                              nextMonthButtonLabel="Next Month"
+                              nextYearButtonLabel="Next Year"
+                              onBlur={[Function]}
+                              onCalendarClose={[Function]}
+                              onCalendarOpen={[Function]}
+                              onChange={[Function]}
+                              onClickOutside={[Function]}
+                              onFocus={[Function]}
+                              onInputClick={[Function]}
+                              onInputError={[Function]}
+                              onKeyDown={[Function]}
+                              onMonthChange={[Function]}
+                              onSelect={[Function]}
+                              onYearChange={[Function]}
+                              preventOpenOnFocus={false}
+                              previousMonthButtonLabel="Previous Month"
+                              previousYearButtonLabel="Previous Year"
+                              readOnly={false}
+                              renderDayContents={[Function]}
+                              selected={2020-03-10T11:11:47.232Z}
+                              shouldCloseOnSelect={true}
+                              showMonthYearPicker={false}
+                              showPopperArrow={true}
+                              showPreviousMonths={false}
+                              showQuarterYearPicker={false}
+                              showTimeInput={false}
+                              showTimeSelect={true}
+                              strictParsing={false}
+                              timeCaption="time"
+                              timeFormat="HH:mm"
+                              timeInputLabel="Time"
+                              timeIntervals={15}
+                              withPortal={false}
+                            >
+                              <t
+                                enableTabLoop={true}
+                                hidePopper={true}
+                                popperComponent={null}
+                                popperModifiers={
+                                  Object {
+                                    "preventOverflow": Object {
+                                      "boundariesElement": "viewport",
+                                      "enabled": true,
+                                      "escapeWithReference": true,
+                                    },
+                                  }
+                                }
+                                popperOnKeyDown={[Function]}
+                                popperPlacement="bottom-start"
+                                popperProps={Object {}}
+                                targetComponent={
+                                  <div
+                                    className="react-datepicker__input-container"
+                                  >
+                                    <input
+                                      className=""
+                                      disabled={false}
+                                      id="endTime"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onClick={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
+                                      readOnly={false}
+                                      type="text"
+                                      value="March 10, 2020 4:11 PM"
+                                    />
+                                  </div>
+                                }
+                              >
+                                <Manager
+                                  className="react-datepicker-manager"
+                                >
+                                  <Reference>
+                                    <InnerReference
+                                      setReferenceNode={[Function]}
+                                    >
+                                      <div
+                                        className="react-datepicker-wrapper"
+                                      >
+                                        <div
+                                          className="react-datepicker__input-container"
+                                        >
+                                          <input
+                                            className=""
+                                            disabled={false}
+                                            id="endTime"
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onClick={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyDown={[Function]}
+                                            readOnly={false}
+                                            type="text"
+                                            value="March 10, 2020 4:11 PM"
+                                          />
+                                        </div>
+                                      </div>
+                                    </InnerReference>
+                                  </Reference>
+                                </Manager>
+                              </t>
+                            </t>
+                          </td>
+                        </tr>
+                        <tr
+                          key="3"
+                        >
+                          <td>
+                            Wednesday
+                          </td>
+                          <td>
+                            <t
+                              allowSameDay={false}
+                              customTimeInput={null}
+                              dateFormat="MMMM d, yyyy h:mm aa"
+                              dateFormatCalendar="LLLL yyyy"
+                              disabled={false}
+                              disabledKeyboardNavigation={false}
+                              dropdownMode="scroll"
+                              enableTabLoop={true}
+                              excludeScrollbar={true}
+                              id="startTime"
+                              inlineFocusSelectedMonth={false}
+                              monthsShown={1}
+                              nextMonthButtonLabel="Next Month"
+                              nextYearButtonLabel="Next Year"
+                              onBlur={[Function]}
+                              onCalendarClose={[Function]}
+                              onCalendarOpen={[Function]}
+                              onChange={[Function]}
+                              onClickOutside={[Function]}
+                              onFocus={[Function]}
+                              onInputClick={[Function]}
+                              onInputError={[Function]}
+                              onKeyDown={[Function]}
+                              onMonthChange={[Function]}
+                              onSelect={[Function]}
+                              onYearChange={[Function]}
+                              preventOpenOnFocus={false}
+                              previousMonthButtonLabel="Previous Month"
+                              previousYearButtonLabel="Previous Year"
+                              readOnly={false}
+                              renderDayContents={[Function]}
+                              selected={2020-03-10T11:11:47.232Z}
+                              shouldCloseOnSelect={true}
+                              showMonthYearPicker={false}
+                              showPopperArrow={true}
+                              showPreviousMonths={false}
+                              showQuarterYearPicker={false}
+                              showTimeInput={false}
+                              showTimeSelect={true}
+                              strictParsing={false}
+                              timeCaption="time"
+                              timeFormat="HH:mm"
+                              timeInputLabel="Time"
+                              timeIntervals={15}
+                              withPortal={false}
+                            >
+                              <t
+                                enableTabLoop={true}
+                                hidePopper={true}
+                                popperComponent={null}
+                                popperModifiers={
+                                  Object {
+                                    "preventOverflow": Object {
+                                      "boundariesElement": "viewport",
+                                      "enabled": true,
+                                      "escapeWithReference": true,
+                                    },
+                                  }
+                                }
+                                popperOnKeyDown={[Function]}
+                                popperPlacement="bottom-start"
+                                popperProps={Object {}}
+                                targetComponent={
+                                  <div
+                                    className="react-datepicker__input-container"
+                                  >
+                                    <input
+                                      className=""
+                                      disabled={false}
+                                      id="startTime"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onClick={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
+                                      readOnly={false}
+                                      type="text"
+                                      value="March 10, 2020 4:11 PM"
+                                    />
+                                  </div>
+                                }
+                              >
+                                <Manager
+                                  className="react-datepicker-manager"
+                                >
+                                  <Reference>
+                                    <InnerReference
+                                      setReferenceNode={[Function]}
+                                    >
+                                      <div
+                                        className="react-datepicker-wrapper"
+                                      >
+                                        <div
+                                          className="react-datepicker__input-container"
+                                        >
+                                          <input
+                                            className=""
+                                            disabled={false}
+                                            id="startTime"
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onClick={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyDown={[Function]}
+                                            readOnly={false}
+                                            type="text"
+                                            value="March 10, 2020 4:11 PM"
+                                          />
+                                        </div>
+                                      </div>
+                                    </InnerReference>
+                                  </Reference>
+                                </Manager>
+                              </t>
+                            </t>
+                          </td>
+                          <td>
+                            <t
+                              allowSameDay={false}
+                              customTimeInput={null}
+                              dateFormat="MMMM d, yyyy h:mm aa"
+                              dateFormatCalendar="LLLL yyyy"
+                              disabled={false}
+                              disabledKeyboardNavigation={false}
+                              dropdownMode="scroll"
+                              enableTabLoop={true}
+                              excludeScrollbar={true}
+                              id="endTime"
+                              inlineFocusSelectedMonth={false}
+                              monthsShown={1}
+                              nextMonthButtonLabel="Next Month"
+                              nextYearButtonLabel="Next Year"
+                              onBlur={[Function]}
+                              onCalendarClose={[Function]}
+                              onCalendarOpen={[Function]}
+                              onChange={[Function]}
+                              onClickOutside={[Function]}
+                              onFocus={[Function]}
+                              onInputClick={[Function]}
+                              onInputError={[Function]}
+                              onKeyDown={[Function]}
+                              onMonthChange={[Function]}
+                              onSelect={[Function]}
+                              onYearChange={[Function]}
+                              preventOpenOnFocus={false}
+                              previousMonthButtonLabel="Previous Month"
+                              previousYearButtonLabel="Previous Year"
+                              readOnly={false}
+                              renderDayContents={[Function]}
+                              selected={2020-03-10T11:11:47.232Z}
+                              shouldCloseOnSelect={true}
+                              showMonthYearPicker={false}
+                              showPopperArrow={true}
+                              showPreviousMonths={false}
+                              showQuarterYearPicker={false}
+                              showTimeInput={false}
+                              showTimeSelect={true}
+                              strictParsing={false}
+                              timeCaption="time"
+                              timeFormat="HH:mm"
+                              timeInputLabel="Time"
+                              timeIntervals={15}
+                              withPortal={false}
+                            >
+                              <t
+                                enableTabLoop={true}
+                                hidePopper={true}
+                                popperComponent={null}
+                                popperModifiers={
+                                  Object {
+                                    "preventOverflow": Object {
+                                      "boundariesElement": "viewport",
+                                      "enabled": true,
+                                      "escapeWithReference": true,
+                                    },
+                                  }
+                                }
+                                popperOnKeyDown={[Function]}
+                                popperPlacement="bottom-start"
+                                popperProps={Object {}}
+                                targetComponent={
+                                  <div
+                                    className="react-datepicker__input-container"
+                                  >
+                                    <input
+                                      className=""
+                                      disabled={false}
+                                      id="endTime"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onClick={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
+                                      readOnly={false}
+                                      type="text"
+                                      value="March 10, 2020 4:11 PM"
+                                    />
+                                  </div>
+                                }
+                              >
+                                <Manager
+                                  className="react-datepicker-manager"
+                                >
+                                  <Reference>
+                                    <InnerReference
+                                      setReferenceNode={[Function]}
+                                    >
+                                      <div
+                                        className="react-datepicker-wrapper"
+                                      >
+                                        <div
+                                          className="react-datepicker__input-container"
+                                        >
+                                          <input
+                                            className=""
+                                            disabled={false}
+                                            id="endTime"
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onClick={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyDown={[Function]}
+                                            readOnly={false}
+                                            type="text"
+                                            value="March 10, 2020 4:11 PM"
+                                          />
+                                        </div>
+                                      </div>
+                                    </InnerReference>
+                                  </Reference>
+                                </Manager>
+                              </t>
+                            </t>
+                          </td>
+                        </tr>
+                        <tr
+                          key="4"
+                        >
+                          <td>
+                            Thursday
+                          </td>
+                          <td>
+                            <t
+                              allowSameDay={false}
+                              customTimeInput={null}
+                              dateFormat="MMMM d, yyyy h:mm aa"
+                              dateFormatCalendar="LLLL yyyy"
+                              disabled={false}
+                              disabledKeyboardNavigation={false}
+                              dropdownMode="scroll"
+                              enableTabLoop={true}
+                              excludeScrollbar={true}
+                              id="startTime"
+                              inlineFocusSelectedMonth={false}
+                              monthsShown={1}
+                              nextMonthButtonLabel="Next Month"
+                              nextYearButtonLabel="Next Year"
+                              onBlur={[Function]}
+                              onCalendarClose={[Function]}
+                              onCalendarOpen={[Function]}
+                              onChange={[Function]}
+                              onClickOutside={[Function]}
+                              onFocus={[Function]}
+                              onInputClick={[Function]}
+                              onInputError={[Function]}
+                              onKeyDown={[Function]}
+                              onMonthChange={[Function]}
+                              onSelect={[Function]}
+                              onYearChange={[Function]}
+                              preventOpenOnFocus={false}
+                              previousMonthButtonLabel="Previous Month"
+                              previousYearButtonLabel="Previous Year"
+                              readOnly={false}
+                              renderDayContents={[Function]}
+                              selected={2020-03-10T11:11:47.232Z}
+                              shouldCloseOnSelect={true}
+                              showMonthYearPicker={false}
+                              showPopperArrow={true}
+                              showPreviousMonths={false}
+                              showQuarterYearPicker={false}
+                              showTimeInput={false}
+                              showTimeSelect={true}
+                              strictParsing={false}
+                              timeCaption="time"
+                              timeFormat="HH:mm"
+                              timeInputLabel="Time"
+                              timeIntervals={15}
+                              withPortal={false}
+                            >
+                              <t
+                                enableTabLoop={true}
+                                hidePopper={true}
+                                popperComponent={null}
+                                popperModifiers={
+                                  Object {
+                                    "preventOverflow": Object {
+                                      "boundariesElement": "viewport",
+                                      "enabled": true,
+                                      "escapeWithReference": true,
+                                    },
+                                  }
+                                }
+                                popperOnKeyDown={[Function]}
+                                popperPlacement="bottom-start"
+                                popperProps={Object {}}
+                                targetComponent={
+                                  <div
+                                    className="react-datepicker__input-container"
+                                  >
+                                    <input
+                                      className=""
+                                      disabled={false}
+                                      id="startTime"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onClick={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
+                                      readOnly={false}
+                                      type="text"
+                                      value="March 10, 2020 4:11 PM"
+                                    />
+                                  </div>
+                                }
+                              >
+                                <Manager
+                                  className="react-datepicker-manager"
+                                >
+                                  <Reference>
+                                    <InnerReference
+                                      setReferenceNode={[Function]}
+                                    >
+                                      <div
+                                        className="react-datepicker-wrapper"
+                                      >
+                                        <div
+                                          className="react-datepicker__input-container"
+                                        >
+                                          <input
+                                            className=""
+                                            disabled={false}
+                                            id="startTime"
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onClick={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyDown={[Function]}
+                                            readOnly={false}
+                                            type="text"
+                                            value="March 10, 2020 4:11 PM"
+                                          />
+                                        </div>
+                                      </div>
+                                    </InnerReference>
+                                  </Reference>
+                                </Manager>
+                              </t>
+                            </t>
+                          </td>
+                          <td>
+                            <t
+                              allowSameDay={false}
+                              customTimeInput={null}
+                              dateFormat="MMMM d, yyyy h:mm aa"
+                              dateFormatCalendar="LLLL yyyy"
+                              disabled={false}
+                              disabledKeyboardNavigation={false}
+                              dropdownMode="scroll"
+                              enableTabLoop={true}
+                              excludeScrollbar={true}
+                              id="endTime"
+                              inlineFocusSelectedMonth={false}
+                              monthsShown={1}
+                              nextMonthButtonLabel="Next Month"
+                              nextYearButtonLabel="Next Year"
+                              onBlur={[Function]}
+                              onCalendarClose={[Function]}
+                              onCalendarOpen={[Function]}
+                              onChange={[Function]}
+                              onClickOutside={[Function]}
+                              onFocus={[Function]}
+                              onInputClick={[Function]}
+                              onInputError={[Function]}
+                              onKeyDown={[Function]}
+                              onMonthChange={[Function]}
+                              onSelect={[Function]}
+                              onYearChange={[Function]}
+                              preventOpenOnFocus={false}
+                              previousMonthButtonLabel="Previous Month"
+                              previousYearButtonLabel="Previous Year"
+                              readOnly={false}
+                              renderDayContents={[Function]}
+                              selected={2020-03-10T11:11:47.232Z}
+                              shouldCloseOnSelect={true}
+                              showMonthYearPicker={false}
+                              showPopperArrow={true}
+                              showPreviousMonths={false}
+                              showQuarterYearPicker={false}
+                              showTimeInput={false}
+                              showTimeSelect={true}
+                              strictParsing={false}
+                              timeCaption="time"
+                              timeFormat="HH:mm"
+                              timeInputLabel="Time"
+                              timeIntervals={15}
+                              withPortal={false}
+                            >
+                              <t
+                                enableTabLoop={true}
+                                hidePopper={true}
+                                popperComponent={null}
+                                popperModifiers={
+                                  Object {
+                                    "preventOverflow": Object {
+                                      "boundariesElement": "viewport",
+                                      "enabled": true,
+                                      "escapeWithReference": true,
+                                    },
+                                  }
+                                }
+                                popperOnKeyDown={[Function]}
+                                popperPlacement="bottom-start"
+                                popperProps={Object {}}
+                                targetComponent={
+                                  <div
+                                    className="react-datepicker__input-container"
+                                  >
+                                    <input
+                                      className=""
+                                      disabled={false}
+                                      id="endTime"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onClick={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
+                                      readOnly={false}
+                                      type="text"
+                                      value="March 10, 2020 4:11 PM"
+                                    />
+                                  </div>
+                                }
+                              >
+                                <Manager
+                                  className="react-datepicker-manager"
+                                >
+                                  <Reference>
+                                    <InnerReference
+                                      setReferenceNode={[Function]}
+                                    >
+                                      <div
+                                        className="react-datepicker-wrapper"
+                                      >
+                                        <div
+                                          className="react-datepicker__input-container"
+                                        >
+                                          <input
+                                            className=""
+                                            disabled={false}
+                                            id="endTime"
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onClick={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyDown={[Function]}
+                                            readOnly={false}
+                                            type="text"
+                                            value="March 10, 2020 4:11 PM"
+                                          />
+                                        </div>
+                                      </div>
+                                    </InnerReference>
+                                  </Reference>
+                                </Manager>
+                              </t>
+                            </t>
+                          </td>
+                        </tr>
+                        <tr
+                          key="5"
+                        >
+                          <td>
+                            Friday
+                          </td>
+                          <td>
+                            <t
+                              allowSameDay={false}
+                              customTimeInput={null}
+                              dateFormat="MMMM d, yyyy h:mm aa"
+                              dateFormatCalendar="LLLL yyyy"
+                              disabled={false}
+                              disabledKeyboardNavigation={false}
+                              dropdownMode="scroll"
+                              enableTabLoop={true}
+                              excludeScrollbar={true}
+                              id="startTime"
+                              inlineFocusSelectedMonth={false}
+                              monthsShown={1}
+                              nextMonthButtonLabel="Next Month"
+                              nextYearButtonLabel="Next Year"
+                              onBlur={[Function]}
+                              onCalendarClose={[Function]}
+                              onCalendarOpen={[Function]}
+                              onChange={[Function]}
+                              onClickOutside={[Function]}
+                              onFocus={[Function]}
+                              onInputClick={[Function]}
+                              onInputError={[Function]}
+                              onKeyDown={[Function]}
+                              onMonthChange={[Function]}
+                              onSelect={[Function]}
+                              onYearChange={[Function]}
+                              preventOpenOnFocus={false}
+                              previousMonthButtonLabel="Previous Month"
+                              previousYearButtonLabel="Previous Year"
+                              readOnly={false}
+                              renderDayContents={[Function]}
+                              selected={2020-03-10T11:11:47.232Z}
+                              shouldCloseOnSelect={true}
+                              showMonthYearPicker={false}
+                              showPopperArrow={true}
+                              showPreviousMonths={false}
+                              showQuarterYearPicker={false}
+                              showTimeInput={false}
+                              showTimeSelect={true}
+                              strictParsing={false}
+                              timeCaption="time"
+                              timeFormat="HH:mm"
+                              timeInputLabel="Time"
+                              timeIntervals={15}
+                              withPortal={false}
+                            >
+                              <t
+                                enableTabLoop={true}
+                                hidePopper={true}
+                                popperComponent={null}
+                                popperModifiers={
+                                  Object {
+                                    "preventOverflow": Object {
+                                      "boundariesElement": "viewport",
+                                      "enabled": true,
+                                      "escapeWithReference": true,
+                                    },
+                                  }
+                                }
+                                popperOnKeyDown={[Function]}
+                                popperPlacement="bottom-start"
+                                popperProps={Object {}}
+                                targetComponent={
+                                  <div
+                                    className="react-datepicker__input-container"
+                                  >
+                                    <input
+                                      className=""
+                                      disabled={false}
+                                      id="startTime"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onClick={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
+                                      readOnly={false}
+                                      type="text"
+                                      value="March 10, 2020 4:11 PM"
+                                    />
+                                  </div>
+                                }
+                              >
+                                <Manager
+                                  className="react-datepicker-manager"
+                                >
+                                  <Reference>
+                                    <InnerReference
+                                      setReferenceNode={[Function]}
+                                    >
+                                      <div
+                                        className="react-datepicker-wrapper"
+                                      >
+                                        <div
+                                          className="react-datepicker__input-container"
+                                        >
+                                          <input
+                                            className=""
+                                            disabled={false}
+                                            id="startTime"
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onClick={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyDown={[Function]}
+                                            readOnly={false}
+                                            type="text"
+                                            value="March 10, 2020 4:11 PM"
+                                          />
+                                        </div>
+                                      </div>
+                                    </InnerReference>
+                                  </Reference>
+                                </Manager>
+                              </t>
+                            </t>
+                          </td>
+                          <td>
+                            <t
+                              allowSameDay={false}
+                              customTimeInput={null}
+                              dateFormat="MMMM d, yyyy h:mm aa"
+                              dateFormatCalendar="LLLL yyyy"
+                              disabled={false}
+                              disabledKeyboardNavigation={false}
+                              dropdownMode="scroll"
+                              enableTabLoop={true}
+                              excludeScrollbar={true}
+                              id="endTime"
+                              inlineFocusSelectedMonth={false}
+                              monthsShown={1}
+                              nextMonthButtonLabel="Next Month"
+                              nextYearButtonLabel="Next Year"
+                              onBlur={[Function]}
+                              onCalendarClose={[Function]}
+                              onCalendarOpen={[Function]}
+                              onChange={[Function]}
+                              onClickOutside={[Function]}
+                              onFocus={[Function]}
+                              onInputClick={[Function]}
+                              onInputError={[Function]}
+                              onKeyDown={[Function]}
+                              onMonthChange={[Function]}
+                              onSelect={[Function]}
+                              onYearChange={[Function]}
+                              preventOpenOnFocus={false}
+                              previousMonthButtonLabel="Previous Month"
+                              previousYearButtonLabel="Previous Year"
+                              readOnly={false}
+                              renderDayContents={[Function]}
+                              selected={2020-03-10T11:11:47.232Z}
+                              shouldCloseOnSelect={true}
+                              showMonthYearPicker={false}
+                              showPopperArrow={true}
+                              showPreviousMonths={false}
+                              showQuarterYearPicker={false}
+                              showTimeInput={false}
+                              showTimeSelect={true}
+                              strictParsing={false}
+                              timeCaption="time"
+                              timeFormat="HH:mm"
+                              timeInputLabel="Time"
+                              timeIntervals={15}
+                              withPortal={false}
+                            >
+                              <t
+                                enableTabLoop={true}
+                                hidePopper={true}
+                                popperComponent={null}
+                                popperModifiers={
+                                  Object {
+                                    "preventOverflow": Object {
+                                      "boundariesElement": "viewport",
+                                      "enabled": true,
+                                      "escapeWithReference": true,
+                                    },
+                                  }
+                                }
+                                popperOnKeyDown={[Function]}
+                                popperPlacement="bottom-start"
+                                popperProps={Object {}}
+                                targetComponent={
+                                  <div
+                                    className="react-datepicker__input-container"
+                                  >
+                                    <input
+                                      className=""
+                                      disabled={false}
+                                      id="endTime"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onClick={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
+                                      readOnly={false}
+                                      type="text"
+                                      value="March 10, 2020 4:11 PM"
+                                    />
+                                  </div>
+                                }
+                              >
+                                <Manager
+                                  className="react-datepicker-manager"
+                                >
+                                  <Reference>
+                                    <InnerReference
+                                      setReferenceNode={[Function]}
+                                    >
+                                      <div
+                                        className="react-datepicker-wrapper"
+                                      >
+                                        <div
+                                          className="react-datepicker__input-container"
+                                        >
+                                          <input
+                                            className=""
+                                            disabled={false}
+                                            id="endTime"
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onClick={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyDown={[Function]}
+                                            readOnly={false}
+                                            type="text"
+                                            value="March 10, 2020 4:11 PM"
+                                          />
+                                        </div>
+                                      </div>
+                                    </InnerReference>
+                                  </Reference>
+                                </Manager>
+                              </t>
+                            </t>
+                          </td>
+                        </tr>
+                      </RenderRow>
+                    </tbody>
+                  </table>
+                </ForwardRef>
+                <FormGroup>
+                  <div
+                    className="form-group"
+                  >
+                    <Button
+                      active={false}
+                      data-testid="submitButton"
+                      disabled={false}
+                      type="submit"
+                      variant="primary"
+                    >
+                      <button
+                        className="btn btn-primary"
+                        data-testid="submitButton"
+                        disabled={false}
+                        type="submit"
+                      >
+                        Submit
+                      </button>
+                    </Button>
+                  </div>
+                </FormGroup>
+              </form>
+            </Form>
+          </AssignTable>
+          <Row
+            noGutters={false}
+          >
+            <div
+              className="row"
+            >
+              <Col
+                md={2}
+              >
+                <div
+                  className="col-md-2"
+                />
+              </Col>
+              <Col
+                md={8}
+              >
+                <div
+                  className="col-md-8"
+                />
+              </Col>
+              <Col
+                md={2}
+              >
+                <div
+                  className="col-md-2"
+                />
+              </Col>
+            </div>
+          </Row>
+        </div>
+      </styled.div>
+    </AssignShift>
+  </Router>
+</MemoryRouter>
+`;
+
+exports[`<AssignShift /> Component mounting the component(for unauthorize user) 1`] = `
+<MemoryRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "m9403m",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "m9403m",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <AssignShift
+      location={
+        Object {
+          "state": Object {
+            "user": Object {
+              "email": "ali@gmail.com",
+            },
+          },
+        }
+      }
+      role="developer"
+    >
+      <NotFound
+        role="developer"
+      >
+        <withRouter(Navigationbar)
+          role="developer"
+        >
+          <Navigationbar
+            history={
+              Object {
+                "action": "POP",
+                "block": [Function],
+                "canGo": [Function],
+                "createHref": [Function],
+                "entries": Array [
+                  Object {
+                    "hash": "",
+                    "key": "m9403m",
+                    "pathname": "/",
+                    "search": "",
+                    "state": undefined,
+                  },
+                ],
+                "go": [Function],
+                "goBack": [Function],
+                "goForward": [Function],
+                "index": 0,
+                "length": 1,
+                "listen": [Function],
+                "location": Object {
+                  "hash": "",
+                  "key": "m9403m",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                },
+                "push": [Function],
+                "replace": [Function],
+              }
+            }
+            location={
+              Object {
+                "hash": "",
+                "key": "m9403m",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              }
+            }
+            match={
+              Object {
+                "isExact": true,
+                "params": Object {},
+                "path": "/",
+                "url": "/",
+              }
+            }
+            role="developer"
+          >
+            <Navbar
+              bg="light"
+              collapseOnSelect={false}
+              expand="lg"
+              fluid={true}
+              inverse={true}
+              variant="light"
+            >
+              <nav
+                className="navbar navbar-expand-lg navbar-light bg-light"
+                fluid={true}
+                inverse={true}
+              >
+                <NavbarBrand
+                  onClick={[Function]}
+                >
+                  <span
+                    className="navbar-brand"
+                    onClick={[Function]}
+                  >
+                    Employee Management System
+                  </span>
+                </NavbarBrand>
+                <NavbarToggle
+                  aria-controls="basic-navbar-nav"
+                  label="Toggle navigation"
+                >
+                  <button
+                    aria-controls="basic-navbar-nav"
+                    aria-label="Toggle navigation"
+                    className="navbar-toggler collapsed"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <span
+                      className="navbar-toggler-icon"
+                    />
+                  </button>
+                </NavbarToggle>
+                <NavbarCollapse
+                  id="basic-navbar-nav"
+                >
+                  <Collapse
+                    appear={false}
+                    dimension="height"
+                    getDimensionValue={[Function]}
+                    id="basic-navbar-nav"
+                    in={false}
+                    mountOnEnter={false}
+                    timeout={300}
+                    unmountOnExit={false}
+                  >
+                    <Transition
+                      addEndListener={[Function]}
+                      appear={false}
+                      aria-expanded={null}
+                      enter={true}
+                      exit={true}
+                      id="basic-navbar-nav"
+                      in={false}
+                      mountOnEnter={false}
+                      onEnter={[Function]}
+                      onEntered={[Function]}
+                      onEntering={[Function]}
+                      onExit={[Function]}
+                      onExited={[Function]}
+                      onExiting={[Function]}
+                      timeout={300}
+                      unmountOnExit={false}
+                    >
+                      <div
+                        aria-expanded={null}
+                        className="navbar-collapse collapse"
+                        id="basic-navbar-nav"
+                      >
+                        <Nav
+                          className="mr-auto"
+                          fill={false}
+                          justify={false}
+                        >
+                          <ForwardRef
+                            as="div"
+                            className="mr-auto navbar-nav"
+                            onSelect={[Function]}
+                          >
+                            <div
+                              className="mr-auto navbar-nav"
+                              onKeyDown={[Function]}
+                            >
+                              <BrowserRouter>
+                                <Router
+                                  history={
+                                    Object {
+                                      "action": "POP",
+                                      "block": [Function],
+                                      "createHref": [Function],
+                                      "go": [Function],
+                                      "goBack": [Function],
+                                      "goForward": [Function],
+                                      "length": 1,
+                                      "listen": [Function],
+                                      "location": Object {
+                                        "hash": "",
+                                        "pathname": "blank",
+                                        "search": "",
+                                        "state": undefined,
+                                      },
+                                      "push": [Function],
+                                      "replace": [Function],
+                                    }
+                                  }
+                                >
+                                  <Link
+                                    onClick={[Function]}
+                                    to="/tasks"
+                                  >
+                                    <LinkAnchor
+                                      href="/tasks"
+                                      navigate={[Function]}
+                                      onClick={[Function]}
+                                    >
+                                      <a
+                                        href="/tasks"
+                                        onClick={[Function]}
+                                      >
+                                        Tasks
+                                      </a>
+                                    </LinkAnchor>
+                                  </Link>
+                                  <Link
+                                    onClick={[Function]}
+                                    to="/timings"
+                                  >
+                                    <LinkAnchor
+                                      href="/timings"
+                                      navigate={[Function]}
+                                      onClick={[Function]}
+                                    >
+                                      <a
+                                        href="/timings"
+                                        onClick={[Function]}
+                                      >
+                                        Timings
+                                      </a>
+                                    </LinkAnchor>
+                                  </Link>
+                                  <Link
+                                    onClick={[Function]}
+                                    to="/swapshift"
+                                  >
+                                    <LinkAnchor
+                                      href="/swapshift"
+                                      navigate={[Function]}
+                                      onClick={[Function]}
+                                    >
+                                      <a
+                                        href="/swapshift"
+                                        onClick={[Function]}
+                                      >
+                                        Swap Requests
+                                      </a>
+                                    </LinkAnchor>
+                                  </Link>
+                                </Router>
+                              </BrowserRouter>
+                            </div>
+                          </ForwardRef>
+                        </Nav>
+                        <Nav
+                          fill={false}
+                          justify={false}
+                        >
+                          <ForwardRef
+                            as="div"
+                            className="navbar-nav"
+                            onSelect={[Function]}
+                          >
+                            <div
+                              className="navbar-nav"
+                              onKeyDown={[Function]}
+                            >
+                              <Button
+                                active={false}
+                                disabled={false}
+                                onClick={[Function]}
+                                type="button"
+                                variant="outline-info"
+                              >
+                                <button
+                                  className="btn btn-outline-info"
+                                  disabled={false}
+                                  onClick={[Function]}
+                                  type="button"
+                                >
+                                  Logout
+                                </button>
+                              </Button>
+                            </div>
+                          </ForwardRef>
+                        </Nav>
+                      </div>
+                    </Transition>
+                  </Collapse>
+                </NavbarCollapse>
+              </nav>
+            </Navbar>
+          </Navigationbar>
+        </withRouter(Navigationbar)>
+        <styled.div>
+          <div
+            className="sc-AxjAm bcThxe"
+          >
+            <styled.h1>
+              <h1
+                className="sc-AxirZ kHuMvb"
+              >
+                Not Found...
+              </h1>
+            </styled.h1>
+          </div>
+        </styled.div>
+      </NotFound>
+    </AssignShift>
+  </Router>
+</MemoryRouter>
+`;

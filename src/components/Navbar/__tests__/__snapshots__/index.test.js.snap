@@ -1,0 +1,2232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Navbar /> component when role is Developer simulating the Logout Button 1`] = `
+<MemoryRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "7815z3",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "7815z3",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <withRouter(Navigationbar)
+      history={
+        Object {
+          "push": [MockFunction],
+        }
+      }
+      role="developer"
+    >
+      <Navigationbar
+        history={
+          Object {
+            "action": "POP",
+            "block": [Function],
+            "canGo": [Function],
+            "createHref": [Function],
+            "entries": Array [
+              Object {
+                "hash": "",
+                "key": "7815z3",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              },
+            ],
+            "go": [Function],
+            "goBack": [Function],
+            "goForward": [Function],
+            "index": 0,
+            "length": 1,
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "key": "7815z3",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            },
+            "push": [Function],
+            "replace": [Function],
+          }
+        }
+        location={
+          Object {
+            "hash": "",
+            "key": "7815z3",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          }
+        }
+        match={
+          Object {
+            "isExact": true,
+            "params": Object {},
+            "path": "/",
+            "url": "/",
+          }
+        }
+        role="developer"
+      >
+        <Navbar
+          bg="light"
+          collapseOnSelect={false}
+          expand="lg"
+          fluid={true}
+          inverse={true}
+          variant="light"
+        >
+          <nav
+            className="navbar navbar-expand-lg navbar-light bg-light"
+            fluid={true}
+            inverse={true}
+          >
+            <NavbarBrand
+              onClick={[Function]}
+            >
+              <span
+                className="navbar-brand"
+                onClick={[Function]}
+              >
+                Employee Management System
+              </span>
+            </NavbarBrand>
+            <NavbarToggle
+              aria-controls="basic-navbar-nav"
+              label="Toggle navigation"
+            >
+              <button
+                aria-controls="basic-navbar-nav"
+                aria-label="Toggle navigation"
+                className="navbar-toggler collapsed"
+                onClick={[Function]}
+                type="button"
+              >
+                <span
+                  className="navbar-toggler-icon"
+                />
+              </button>
+            </NavbarToggle>
+            <NavbarCollapse
+              id="basic-navbar-nav"
+            >
+              <Collapse
+                appear={false}
+                dimension="height"
+                getDimensionValue={[Function]}
+                id="basic-navbar-nav"
+                in={false}
+                mountOnEnter={false}
+                timeout={300}
+                unmountOnExit={false}
+              >
+                <Transition
+                  addEndListener={[Function]}
+                  appear={false}
+                  aria-expanded={null}
+                  enter={true}
+                  exit={true}
+                  id="basic-navbar-nav"
+                  in={false}
+                  mountOnEnter={false}
+                  onEnter={[Function]}
+                  onEntered={[Function]}
+                  onEntering={[Function]}
+                  onExit={[Function]}
+                  onExited={[Function]}
+                  onExiting={[Function]}
+                  timeout={300}
+                  unmountOnExit={false}
+                >
+                  <div
+                    aria-expanded={null}
+                    className="navbar-collapse collapse"
+                    id="basic-navbar-nav"
+                  >
+                    <Nav
+                      className="mr-auto"
+                      fill={false}
+                      justify={false}
+                    >
+                      <ForwardRef
+                        as="div"
+                        className="mr-auto navbar-nav"
+                        onSelect={[Function]}
+                      >
+                        <div
+                          className="mr-auto navbar-nav"
+                          onKeyDown={[Function]}
+                        >
+                          <BrowserRouter>
+                            <Router
+                              history={
+                                Object {
+                                  "action": "POP",
+                                  "block": [Function],
+                                  "createHref": [Function],
+                                  "go": [Function],
+                                  "goBack": [Function],
+                                  "goForward": [Function],
+                                  "length": 1,
+                                  "listen": [Function],
+                                  "location": Object {
+                                    "hash": "",
+                                    "pathname": "blank",
+                                    "search": "",
+                                    "state": undefined,
+                                  },
+                                  "push": [Function],
+                                  "replace": [Function],
+                                }
+                              }
+                            >
+                              <Link
+                                data-testid="tasks"
+                                onClick={[Function]}
+                                to="/tasks"
+                              >
+                                <LinkAnchor
+                                  data-testid="tasks"
+                                  href="/tasks"
+                                  navigate={[Function]}
+                                  onClick={[Function]}
+                                >
+                                  <a
+                                    data-testid="tasks"
+                                    href="/tasks"
+                                    onClick={[Function]}
+                                  >
+                                    Tasks
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                              <Link
+                                data-testid="timings"
+                                onClick={[Function]}
+                                to="/timings"
+                              >
+                                <LinkAnchor
+                                  data-testid="timings"
+                                  href="/timings"
+                                  navigate={[Function]}
+                                  onClick={[Function]}
+                                >
+                                  <a
+                                    data-testid="timings"
+                                    href="/timings"
+                                    onClick={[Function]}
+                                  >
+                                    Timings
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                              <Link
+                                data-testid="swapshift"
+                                onClick={[Function]}
+                                to="/swapshift"
+                              >
+                                <LinkAnchor
+                                  data-testid="swapshift"
+                                  href="/swapshift"
+                                  navigate={[Function]}
+                                  onClick={[Function]}
+                                >
+                                  <a
+                                    data-testid="swapshift"
+                                    href="/swapshift"
+                                    onClick={[Function]}
+                                  >
+                                    Swap Requests
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                            </Router>
+                          </BrowserRouter>
+                        </div>
+                      </ForwardRef>
+                    </Nav>
+                    <Nav
+                      fill={false}
+                      justify={false}
+                    >
+                      <ForwardRef
+                        as="div"
+                        className="navbar-nav"
+                        onSelect={[Function]}
+                      >
+                        <div
+                          className="navbar-nav"
+                          onKeyDown={[Function]}
+                        >
+                          <Button
+                            active={false}
+                            data-testid="logout"
+                            disabled={false}
+                            onClick={[Function]}
+                            type="button"
+                            variant="outline-info"
+                          >
+                            <button
+                              className="btn btn-outline-info"
+                              data-testid="logout"
+                              disabled={false}
+                              onClick={[Function]}
+                              type="button"
+                            >
+                              Logout
+                            </button>
+                          </Button>
+                        </div>
+                      </ForwardRef>
+                    </Nav>
+                  </div>
+                </Transition>
+              </Collapse>
+            </NavbarCollapse>
+          </nav>
+        </Navbar>
+      </Navigationbar>
+    </withRouter(Navigationbar)>
+  </Router>
+</MemoryRouter>
+`;
+
+exports[`<Navbar /> component when role is Developer simulating the Swap Requests Link 1`] = `
+<MemoryRouter>
+  <Router
+    history={
+      Object {
+        "action": "PUSH",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "xl4l3r",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          Object {
+            "hash": "",
+            "key": "fio0pj",
+            "pathname": "/swapshift",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 1,
+        "length": 2,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "fio0pj",
+          "pathname": "/swapshift",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <withRouter(Navigationbar)
+      history={
+        Object {
+          "push": [MockFunction],
+        }
+      }
+      role="developer"
+    >
+      <Navigationbar
+        history={
+          Object {
+            "action": "PUSH",
+            "block": [Function],
+            "canGo": [Function],
+            "createHref": [Function],
+            "entries": Array [
+              Object {
+                "hash": "",
+                "key": "xl4l3r",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              },
+              Object {
+                "hash": "",
+                "key": "fio0pj",
+                "pathname": "/swapshift",
+                "search": "",
+                "state": undefined,
+              },
+            ],
+            "go": [Function],
+            "goBack": [Function],
+            "goForward": [Function],
+            "index": 1,
+            "length": 2,
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "key": "fio0pj",
+              "pathname": "/swapshift",
+              "search": "",
+              "state": undefined,
+            },
+            "push": [Function],
+            "replace": [Function],
+          }
+        }
+        location={
+          Object {
+            "hash": "",
+            "key": "fio0pj",
+            "pathname": "/swapshift",
+            "search": "",
+            "state": undefined,
+          }
+        }
+        match={
+          Object {
+            "isExact": false,
+            "params": Object {},
+            "path": "/",
+            "url": "/",
+          }
+        }
+        role="developer"
+      >
+        <Navbar
+          bg="light"
+          collapseOnSelect={false}
+          expand="lg"
+          fluid={true}
+          inverse={true}
+          variant="light"
+        >
+          <nav
+            className="navbar navbar-expand-lg navbar-light bg-light"
+            fluid={true}
+            inverse={true}
+          >
+            <NavbarBrand
+              onClick={[Function]}
+            >
+              <span
+                className="navbar-brand"
+                onClick={[Function]}
+              >
+                Employee Management System
+              </span>
+            </NavbarBrand>
+            <NavbarToggle
+              aria-controls="basic-navbar-nav"
+              label="Toggle navigation"
+            >
+              <button
+                aria-controls="basic-navbar-nav"
+                aria-label="Toggle navigation"
+                className="navbar-toggler collapsed"
+                onClick={[Function]}
+                type="button"
+              >
+                <span
+                  className="navbar-toggler-icon"
+                />
+              </button>
+            </NavbarToggle>
+            <NavbarCollapse
+              id="basic-navbar-nav"
+            >
+              <Collapse
+                appear={false}
+                dimension="height"
+                getDimensionValue={[Function]}
+                id="basic-navbar-nav"
+                in={false}
+                mountOnEnter={false}
+                timeout={300}
+                unmountOnExit={false}
+              >
+                <Transition
+                  addEndListener={[Function]}
+                  appear={false}
+                  aria-expanded={null}
+                  enter={true}
+                  exit={true}
+                  id="basic-navbar-nav"
+                  in={false}
+                  mountOnEnter={false}
+                  onEnter={[Function]}
+                  onEntered={[Function]}
+                  onEntering={[Function]}
+                  onExit={[Function]}
+                  onExited={[Function]}
+                  onExiting={[Function]}
+                  timeout={300}
+                  unmountOnExit={false}
+                >
+                  <div
+                    aria-expanded={null}
+                    className="navbar-collapse collapse"
+                    id="basic-navbar-nav"
+                  >
+                    <Nav
+                      className="mr-auto"
+                      fill={false}
+                      justify={false}
+                    >
+                      <ForwardRef
+                        as="div"
+                        className="mr-auto navbar-nav"
+                        onSelect={[Function]}
+                      >
+                        <div
+                          className="mr-auto navbar-nav"
+                          onKeyDown={[Function]}
+                        >
+                          <BrowserRouter>
+                            <Router
+                              history={
+                                Object {
+                                  "action": "POP",
+                                  "block": [Function],
+                                  "createHref": [Function],
+                                  "go": [Function],
+                                  "goBack": [Function],
+                                  "goForward": [Function],
+                                  "length": 1,
+                                  "listen": [Function],
+                                  "location": Object {
+                                    "hash": "",
+                                    "pathname": "blank",
+                                    "search": "",
+                                    "state": undefined,
+                                  },
+                                  "push": [Function],
+                                  "replace": [Function],
+                                }
+                              }
+                            >
+                              <Link
+                                data-testid="tasks"
+                                onClick={[Function]}
+                                to="/tasks"
+                              >
+                                <LinkAnchor
+                                  data-testid="tasks"
+                                  href="/tasks"
+                                  navigate={[Function]}
+                                  onClick={[Function]}
+                                >
+                                  <a
+                                    data-testid="tasks"
+                                    href="/tasks"
+                                    onClick={[Function]}
+                                  >
+                                    Tasks
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                              <Link
+                                data-testid="timings"
+                                onClick={[Function]}
+                                to="/timings"
+                              >
+                                <LinkAnchor
+                                  data-testid="timings"
+                                  href="/timings"
+                                  navigate={[Function]}
+                                  onClick={[Function]}
+                                >
+                                  <a
+                                    data-testid="timings"
+                                    href="/timings"
+                                    onClick={[Function]}
+                                  >
+                                    Timings
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                              <Link
+                                data-testid="swapshift"
+                                onClick={[Function]}
+                                to="/swapshift"
+                              >
+                                <LinkAnchor
+                                  data-testid="swapshift"
+                                  href="/swapshift"
+                                  navigate={[Function]}
+                                  onClick={[Function]}
+                                >
+                                  <a
+                                    data-testid="swapshift"
+                                    href="/swapshift"
+                                    onClick={[Function]}
+                                  >
+                                    Swap Requests
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                            </Router>
+                          </BrowserRouter>
+                        </div>
+                      </ForwardRef>
+                    </Nav>
+                    <Nav
+                      fill={false}
+                      justify={false}
+                    >
+                      <ForwardRef
+                        as="div"
+                        className="navbar-nav"
+                        onSelect={[Function]}
+                      >
+                        <div
+                          className="navbar-nav"
+                          onKeyDown={[Function]}
+                        >
+                          <Button
+                            active={false}
+                            data-testid="logout"
+                            disabled={false}
+                            onClick={[Function]}
+                            type="button"
+                            variant="outline-info"
+                          >
+                            <button
+                              className="btn btn-outline-info"
+                              data-testid="logout"
+                              disabled={false}
+                              onClick={[Function]}
+                              type="button"
+                            >
+                              Logout
+                            </button>
+                          </Button>
+                        </div>
+                      </ForwardRef>
+                    </Nav>
+                  </div>
+                </Transition>
+              </Collapse>
+            </NavbarCollapse>
+          </nav>
+        </Navbar>
+      </Navigationbar>
+    </withRouter(Navigationbar)>
+  </Router>
+</MemoryRouter>
+`;
+
+exports[`<Navbar /> component when role is Developer simulating the Swap Requests Link 2`] = `
+<MemoryRouter>
+  <Router
+    history={
+      Object {
+        "action": "PUSH",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "hpr0td",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          Object {
+            "hash": "",
+            "key": "dolrxz",
+            "pathname": "/timings",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 1,
+        "length": 2,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "dolrxz",
+          "pathname": "/timings",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <withRouter(Navigationbar)
+      history={
+        Object {
+          "push": [MockFunction],
+        }
+      }
+      role="developer"
+    >
+      <Navigationbar
+        history={
+          Object {
+            "action": "PUSH",
+            "block": [Function],
+            "canGo": [Function],
+            "createHref": [Function],
+            "entries": Array [
+              Object {
+                "hash": "",
+                "key": "hpr0td",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              },
+              Object {
+                "hash": "",
+                "key": "dolrxz",
+                "pathname": "/timings",
+                "search": "",
+                "state": undefined,
+              },
+            ],
+            "go": [Function],
+            "goBack": [Function],
+            "goForward": [Function],
+            "index": 1,
+            "length": 2,
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "key": "dolrxz",
+              "pathname": "/timings",
+              "search": "",
+              "state": undefined,
+            },
+            "push": [Function],
+            "replace": [Function],
+          }
+        }
+        location={
+          Object {
+            "hash": "",
+            "key": "dolrxz",
+            "pathname": "/timings",
+            "search": "",
+            "state": undefined,
+          }
+        }
+        match={
+          Object {
+            "isExact": false,
+            "params": Object {},
+            "path": "/",
+            "url": "/",
+          }
+        }
+        role="developer"
+      >
+        <Navbar
+          bg="light"
+          collapseOnSelect={false}
+          expand="lg"
+          fluid={true}
+          inverse={true}
+          variant="light"
+        >
+          <nav
+            className="navbar navbar-expand-lg navbar-light bg-light"
+            fluid={true}
+            inverse={true}
+          >
+            <NavbarBrand
+              onClick={[Function]}
+            >
+              <span
+                className="navbar-brand"
+                onClick={[Function]}
+              >
+                Employee Management System
+              </span>
+            </NavbarBrand>
+            <NavbarToggle
+              aria-controls="basic-navbar-nav"
+              label="Toggle navigation"
+            >
+              <button
+                aria-controls="basic-navbar-nav"
+                aria-label="Toggle navigation"
+                className="navbar-toggler collapsed"
+                onClick={[Function]}
+                type="button"
+              >
+                <span
+                  className="navbar-toggler-icon"
+                />
+              </button>
+            </NavbarToggle>
+            <NavbarCollapse
+              id="basic-navbar-nav"
+            >
+              <Collapse
+                appear={false}
+                dimension="height"
+                getDimensionValue={[Function]}
+                id="basic-navbar-nav"
+                in={false}
+                mountOnEnter={false}
+                timeout={300}
+                unmountOnExit={false}
+              >
+                <Transition
+                  addEndListener={[Function]}
+                  appear={false}
+                  aria-expanded={null}
+                  enter={true}
+                  exit={true}
+                  id="basic-navbar-nav"
+                  in={false}
+                  mountOnEnter={false}
+                  onEnter={[Function]}
+                  onEntered={[Function]}
+                  onEntering={[Function]}
+                  onExit={[Function]}
+                  onExited={[Function]}
+                  onExiting={[Function]}
+                  timeout={300}
+                  unmountOnExit={false}
+                >
+                  <div
+                    aria-expanded={null}
+                    className="navbar-collapse collapse"
+                    id="basic-navbar-nav"
+                  >
+                    <Nav
+                      className="mr-auto"
+                      fill={false}
+                      justify={false}
+                    >
+                      <ForwardRef
+                        as="div"
+                        className="mr-auto navbar-nav"
+                        onSelect={[Function]}
+                      >
+                        <div
+                          className="mr-auto navbar-nav"
+                          onKeyDown={[Function]}
+                        >
+                          <BrowserRouter>
+                            <Router
+                              history={
+                                Object {
+                                  "action": "POP",
+                                  "block": [Function],
+                                  "createHref": [Function],
+                                  "go": [Function],
+                                  "goBack": [Function],
+                                  "goForward": [Function],
+                                  "length": 1,
+                                  "listen": [Function],
+                                  "location": Object {
+                                    "hash": "",
+                                    "pathname": "blank",
+                                    "search": "",
+                                    "state": undefined,
+                                  },
+                                  "push": [Function],
+                                  "replace": [Function],
+                                }
+                              }
+                            >
+                              <Link
+                                data-testid="tasks"
+                                onClick={[Function]}
+                                to="/tasks"
+                              >
+                                <LinkAnchor
+                                  data-testid="tasks"
+                                  href="/tasks"
+                                  navigate={[Function]}
+                                  onClick={[Function]}
+                                >
+                                  <a
+                                    data-testid="tasks"
+                                    href="/tasks"
+                                    onClick={[Function]}
+                                  >
+                                    Tasks
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                              <Link
+                                data-testid="timings"
+                                onClick={[Function]}
+                                to="/timings"
+                              >
+                                <LinkAnchor
+                                  data-testid="timings"
+                                  href="/timings"
+                                  navigate={[Function]}
+                                  onClick={[Function]}
+                                >
+                                  <a
+                                    data-testid="timings"
+                                    href="/timings"
+                                    onClick={[Function]}
+                                  >
+                                    Timings
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                              <Link
+                                data-testid="swapshift"
+                                onClick={[Function]}
+                                to="/swapshift"
+                              >
+                                <LinkAnchor
+                                  data-testid="swapshift"
+                                  href="/swapshift"
+                                  navigate={[Function]}
+                                  onClick={[Function]}
+                                >
+                                  <a
+                                    data-testid="swapshift"
+                                    href="/swapshift"
+                                    onClick={[Function]}
+                                  >
+                                    Swap Requests
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                            </Router>
+                          </BrowserRouter>
+                        </div>
+                      </ForwardRef>
+                    </Nav>
+                    <Nav
+                      fill={false}
+                      justify={false}
+                    >
+                      <ForwardRef
+                        as="div"
+                        className="navbar-nav"
+                        onSelect={[Function]}
+                      >
+                        <div
+                          className="navbar-nav"
+                          onKeyDown={[Function]}
+                        >
+                          <Button
+                            active={false}
+                            data-testid="logout"
+                            disabled={false}
+                            onClick={[Function]}
+                            type="button"
+                            variant="outline-info"
+                          >
+                            <button
+                              className="btn btn-outline-info"
+                              data-testid="logout"
+                              disabled={false}
+                              onClick={[Function]}
+                              type="button"
+                            >
+                              Logout
+                            </button>
+                          </Button>
+                        </div>
+                      </ForwardRef>
+                    </Nav>
+                  </div>
+                </Transition>
+              </Collapse>
+            </NavbarCollapse>
+          </nav>
+        </Navbar>
+      </Navigationbar>
+    </withRouter(Navigationbar)>
+  </Router>
+</MemoryRouter>
+`;
+
+exports[`<Navbar /> component when role is Developer simulating the Swap Requests Link 3`] = `
+<MemoryRouter>
+  <Router
+    history={
+      Object {
+        "action": "PUSH",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "y65jx7",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          Object {
+            "hash": "",
+            "key": "e2hndg",
+            "pathname": "/tasks",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 1,
+        "length": 2,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "e2hndg",
+          "pathname": "/tasks",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <withRouter(Navigationbar)
+      history={
+        Object {
+          "push": [MockFunction],
+        }
+      }
+      role="developer"
+    >
+      <Navigationbar
+        history={
+          Object {
+            "action": "PUSH",
+            "block": [Function],
+            "canGo": [Function],
+            "createHref": [Function],
+            "entries": Array [
+              Object {
+                "hash": "",
+                "key": "y65jx7",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              },
+              Object {
+                "hash": "",
+                "key": "e2hndg",
+                "pathname": "/tasks",
+                "search": "",
+                "state": undefined,
+              },
+            ],
+            "go": [Function],
+            "goBack": [Function],
+            "goForward": [Function],
+            "index": 1,
+            "length": 2,
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "key": "e2hndg",
+              "pathname": "/tasks",
+              "search": "",
+              "state": undefined,
+            },
+            "push": [Function],
+            "replace": [Function],
+          }
+        }
+        location={
+          Object {
+            "hash": "",
+            "key": "e2hndg",
+            "pathname": "/tasks",
+            "search": "",
+            "state": undefined,
+          }
+        }
+        match={
+          Object {
+            "isExact": false,
+            "params": Object {},
+            "path": "/",
+            "url": "/",
+          }
+        }
+        role="developer"
+      >
+        <Navbar
+          bg="light"
+          collapseOnSelect={false}
+          expand="lg"
+          fluid={true}
+          inverse={true}
+          variant="light"
+        >
+          <nav
+            className="navbar navbar-expand-lg navbar-light bg-light"
+            fluid={true}
+            inverse={true}
+          >
+            <NavbarBrand
+              onClick={[Function]}
+            >
+              <span
+                className="navbar-brand"
+                onClick={[Function]}
+              >
+                Employee Management System
+              </span>
+            </NavbarBrand>
+            <NavbarToggle
+              aria-controls="basic-navbar-nav"
+              label="Toggle navigation"
+            >
+              <button
+                aria-controls="basic-navbar-nav"
+                aria-label="Toggle navigation"
+                className="navbar-toggler collapsed"
+                onClick={[Function]}
+                type="button"
+              >
+                <span
+                  className="navbar-toggler-icon"
+                />
+              </button>
+            </NavbarToggle>
+            <NavbarCollapse
+              id="basic-navbar-nav"
+            >
+              <Collapse
+                appear={false}
+                dimension="height"
+                getDimensionValue={[Function]}
+                id="basic-navbar-nav"
+                in={false}
+                mountOnEnter={false}
+                timeout={300}
+                unmountOnExit={false}
+              >
+                <Transition
+                  addEndListener={[Function]}
+                  appear={false}
+                  aria-expanded={null}
+                  enter={true}
+                  exit={true}
+                  id="basic-navbar-nav"
+                  in={false}
+                  mountOnEnter={false}
+                  onEnter={[Function]}
+                  onEntered={[Function]}
+                  onEntering={[Function]}
+                  onExit={[Function]}
+                  onExited={[Function]}
+                  onExiting={[Function]}
+                  timeout={300}
+                  unmountOnExit={false}
+                >
+                  <div
+                    aria-expanded={null}
+                    className="navbar-collapse collapse"
+                    id="basic-navbar-nav"
+                  >
+                    <Nav
+                      className="mr-auto"
+                      fill={false}
+                      justify={false}
+                    >
+                      <ForwardRef
+                        as="div"
+                        className="mr-auto navbar-nav"
+                        onSelect={[Function]}
+                      >
+                        <div
+                          className="mr-auto navbar-nav"
+                          onKeyDown={[Function]}
+                        >
+                          <BrowserRouter>
+                            <Router
+                              history={
+                                Object {
+                                  "action": "POP",
+                                  "block": [Function],
+                                  "createHref": [Function],
+                                  "go": [Function],
+                                  "goBack": [Function],
+                                  "goForward": [Function],
+                                  "length": 1,
+                                  "listen": [Function],
+                                  "location": Object {
+                                    "hash": "",
+                                    "pathname": "blank",
+                                    "search": "",
+                                    "state": undefined,
+                                  },
+                                  "push": [Function],
+                                  "replace": [Function],
+                                }
+                              }
+                            >
+                              <Link
+                                data-testid="tasks"
+                                onClick={[Function]}
+                                to="/tasks"
+                              >
+                                <LinkAnchor
+                                  data-testid="tasks"
+                                  href="/tasks"
+                                  navigate={[Function]}
+                                  onClick={[Function]}
+                                >
+                                  <a
+                                    data-testid="tasks"
+                                    href="/tasks"
+                                    onClick={[Function]}
+                                  >
+                                    Tasks
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                              <Link
+                                data-testid="timings"
+                                onClick={[Function]}
+                                to="/timings"
+                              >
+                                <LinkAnchor
+                                  data-testid="timings"
+                                  href="/timings"
+                                  navigate={[Function]}
+                                  onClick={[Function]}
+                                >
+                                  <a
+                                    data-testid="timings"
+                                    href="/timings"
+                                    onClick={[Function]}
+                                  >
+                                    Timings
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                              <Link
+                                data-testid="swapshift"
+                                onClick={[Function]}
+                                to="/swapshift"
+                              >
+                                <LinkAnchor
+                                  data-testid="swapshift"
+                                  href="/swapshift"
+                                  navigate={[Function]}
+                                  onClick={[Function]}
+                                >
+                                  <a
+                                    data-testid="swapshift"
+                                    href="/swapshift"
+                                    onClick={[Function]}
+                                  >
+                                    Swap Requests
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                            </Router>
+                          </BrowserRouter>
+                        </div>
+                      </ForwardRef>
+                    </Nav>
+                    <Nav
+                      fill={false}
+                      justify={false}
+                    >
+                      <ForwardRef
+                        as="div"
+                        className="navbar-nav"
+                        onSelect={[Function]}
+                      >
+                        <div
+                          className="navbar-nav"
+                          onKeyDown={[Function]}
+                        >
+                          <Button
+                            active={false}
+                            data-testid="logout"
+                            disabled={false}
+                            onClick={[Function]}
+                            type="button"
+                            variant="outline-info"
+                          >
+                            <button
+                              className="btn btn-outline-info"
+                              data-testid="logout"
+                              disabled={false}
+                              onClick={[Function]}
+                              type="button"
+                            >
+                              Logout
+                            </button>
+                          </Button>
+                        </div>
+                      </ForwardRef>
+                    </Nav>
+                  </div>
+                </Transition>
+              </Collapse>
+            </NavbarCollapse>
+          </nav>
+        </Navbar>
+      </Navigationbar>
+    </withRouter(Navigationbar)>
+  </Router>
+</MemoryRouter>
+`;
+
+exports[`<Navbar /> component when role is manager simulating the Create Profile Link 1`] = `
+<MemoryRouter>
+  <Router
+    history={
+      Object {
+        "action": "PUSH",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "2ds2fl",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          Object {
+            "hash": "",
+            "key": "ztjz3r",
+            "pathname": "/createprofile",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 1,
+        "length": 2,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "ztjz3r",
+          "pathname": "/createprofile",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <withRouter(Navigationbar)
+      history={
+        Object {
+          "push": [MockFunction],
+        }
+      }
+      role="manager"
+    >
+      <Navigationbar
+        history={
+          Object {
+            "action": "PUSH",
+            "block": [Function],
+            "canGo": [Function],
+            "createHref": [Function],
+            "entries": Array [
+              Object {
+                "hash": "",
+                "key": "2ds2fl",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              },
+              Object {
+                "hash": "",
+                "key": "ztjz3r",
+                "pathname": "/createprofile",
+                "search": "",
+                "state": undefined,
+              },
+            ],
+            "go": [Function],
+            "goBack": [Function],
+            "goForward": [Function],
+            "index": 1,
+            "length": 2,
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "key": "ztjz3r",
+              "pathname": "/createprofile",
+              "search": "",
+              "state": undefined,
+            },
+            "push": [Function],
+            "replace": [Function],
+          }
+        }
+        location={
+          Object {
+            "hash": "",
+            "key": "ztjz3r",
+            "pathname": "/createprofile",
+            "search": "",
+            "state": undefined,
+          }
+        }
+        match={
+          Object {
+            "isExact": false,
+            "params": Object {},
+            "path": "/",
+            "url": "/",
+          }
+        }
+        role="manager"
+      >
+        <Navbar
+          bg="light"
+          collapseOnSelect={false}
+          expand="lg"
+          variant="light"
+        >
+          <nav
+            className="navbar navbar-expand-lg navbar-light bg-light"
+          >
+            <NavbarBrand
+              onClick={[Function]}
+            >
+              <span
+                className="navbar-brand"
+                onClick={[Function]}
+              >
+                Employee Management System
+              </span>
+            </NavbarBrand>
+            <NavbarToggle
+              aria-controls="basic-navbar-nav"
+              label="Toggle navigation"
+            >
+              <button
+                aria-controls="basic-navbar-nav"
+                aria-label="Toggle navigation"
+                className="navbar-toggler collapsed"
+                onClick={[Function]}
+                type="button"
+              >
+                <span
+                  className="navbar-toggler-icon"
+                />
+              </button>
+            </NavbarToggle>
+            <NavbarCollapse
+              id="basic-navbar-nav"
+            >
+              <Collapse
+                appear={false}
+                dimension="height"
+                getDimensionValue={[Function]}
+                id="basic-navbar-nav"
+                in={false}
+                mountOnEnter={false}
+                timeout={300}
+                unmountOnExit={false}
+              >
+                <Transition
+                  addEndListener={[Function]}
+                  appear={false}
+                  aria-expanded={null}
+                  enter={true}
+                  exit={true}
+                  id="basic-navbar-nav"
+                  in={false}
+                  mountOnEnter={false}
+                  onEnter={[Function]}
+                  onEntered={[Function]}
+                  onEntering={[Function]}
+                  onExit={[Function]}
+                  onExited={[Function]}
+                  onExiting={[Function]}
+                  timeout={300}
+                  unmountOnExit={false}
+                >
+                  <div
+                    aria-expanded={null}
+                    className="navbar-collapse collapse"
+                    id="basic-navbar-nav"
+                  >
+                    <Nav
+                      className="mr-auto"
+                      fill={false}
+                      justify={false}
+                    >
+                      <ForwardRef
+                        as="div"
+                        className="mr-auto navbar-nav"
+                        onSelect={[Function]}
+                      >
+                        <div
+                          className="mr-auto navbar-nav"
+                          onKeyDown={[Function]}
+                        >
+                          <BrowserRouter>
+                            <Router
+                              history={
+                                Object {
+                                  "action": "POP",
+                                  "block": [Function],
+                                  "createHref": [Function],
+                                  "go": [Function],
+                                  "goBack": [Function],
+                                  "goForward": [Function],
+                                  "length": 1,
+                                  "listen": [Function],
+                                  "location": Object {
+                                    "hash": "",
+                                    "pathname": "blank",
+                                    "search": "",
+                                    "state": undefined,
+                                  },
+                                  "push": [Function],
+                                  "replace": [Function],
+                                }
+                              }
+                            >
+                              <Link
+                                data-testid="createprofile"
+                                onClick={[Function]}
+                                to="/createprofile"
+                              >
+                                <LinkAnchor
+                                  data-testid="createprofile"
+                                  href="/createprofile"
+                                  navigate={[Function]}
+                                  onClick={[Function]}
+                                >
+                                  <a
+                                    data-testid="createprofile"
+                                    href="/createprofile"
+                                    onClick={[Function]}
+                                  >
+                                    Add Developer
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                              <Link
+                                data-testid="alldevelopers"
+                                onClick={[Function]}
+                                to="/alldevelopers"
+                              >
+                                <LinkAnchor
+                                  data-testid="alldevelopers"
+                                  href="/alldevelopers"
+                                  navigate={[Function]}
+                                  onClick={[Function]}
+                                >
+                                  <a
+                                    data-testid="alldevelopers"
+                                    href="/alldevelopers"
+                                    onClick={[Function]}
+                                  >
+                                    All Developer
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                            </Router>
+                          </BrowserRouter>
+                        </div>
+                      </ForwardRef>
+                    </Nav>
+                    <Nav
+                      fill={false}
+                      justify={false}
+                    >
+                      <ForwardRef
+                        as="div"
+                        className="navbar-nav"
+                        onSelect={[Function]}
+                      >
+                        <div
+                          className="navbar-nav"
+                          onKeyDown={[Function]}
+                        >
+                          <Button
+                            active={false}
+                            data-testid="logout"
+                            disabled={false}
+                            onClick={[Function]}
+                            type="button"
+                            variant="outline-info"
+                          >
+                            <button
+                              className="btn btn-outline-info"
+                              data-testid="logout"
+                              disabled={false}
+                              onClick={[Function]}
+                              type="button"
+                            >
+                              Logout
+                            </button>
+                          </Button>
+                        </div>
+                      </ForwardRef>
+                    </Nav>
+                  </div>
+                </Transition>
+              </Collapse>
+            </NavbarCollapse>
+          </nav>
+        </Navbar>
+      </Navigationbar>
+    </withRouter(Navigationbar)>
+  </Router>
+</MemoryRouter>
+`;
+
+exports[`<Navbar /> component when role is manager simulating the Logout Button 1`] = `
+<MemoryRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "b5jyxm",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "b5jyxm",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <withRouter(Navigationbar)
+      history={
+        Object {
+          "push": [MockFunction],
+        }
+      }
+      role="manager"
+    >
+      <Navigationbar
+        history={
+          Object {
+            "action": "POP",
+            "block": [Function],
+            "canGo": [Function],
+            "createHref": [Function],
+            "entries": Array [
+              Object {
+                "hash": "",
+                "key": "b5jyxm",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              },
+            ],
+            "go": [Function],
+            "goBack": [Function],
+            "goForward": [Function],
+            "index": 0,
+            "length": 1,
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "key": "b5jyxm",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            },
+            "push": [Function],
+            "replace": [Function],
+          }
+        }
+        location={
+          Object {
+            "hash": "",
+            "key": "b5jyxm",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          }
+        }
+        match={
+          Object {
+            "isExact": true,
+            "params": Object {},
+            "path": "/",
+            "url": "/",
+          }
+        }
+        role="manager"
+      >
+        <Navbar
+          bg="light"
+          collapseOnSelect={false}
+          expand="lg"
+          variant="light"
+        >
+          <nav
+            className="navbar navbar-expand-lg navbar-light bg-light"
+          >
+            <NavbarBrand
+              onClick={[Function]}
+            >
+              <span
+                className="navbar-brand"
+                onClick={[Function]}
+              >
+                Employee Management System
+              </span>
+            </NavbarBrand>
+            <NavbarToggle
+              aria-controls="basic-navbar-nav"
+              label="Toggle navigation"
+            >
+              <button
+                aria-controls="basic-navbar-nav"
+                aria-label="Toggle navigation"
+                className="navbar-toggler collapsed"
+                onClick={[Function]}
+                type="button"
+              >
+                <span
+                  className="navbar-toggler-icon"
+                />
+              </button>
+            </NavbarToggle>
+            <NavbarCollapse
+              id="basic-navbar-nav"
+            >
+              <Collapse
+                appear={false}
+                dimension="height"
+                getDimensionValue={[Function]}
+                id="basic-navbar-nav"
+                in={false}
+                mountOnEnter={false}
+                timeout={300}
+                unmountOnExit={false}
+              >
+                <Transition
+                  addEndListener={[Function]}
+                  appear={false}
+                  aria-expanded={null}
+                  enter={true}
+                  exit={true}
+                  id="basic-navbar-nav"
+                  in={false}
+                  mountOnEnter={false}
+                  onEnter={[Function]}
+                  onEntered={[Function]}
+                  onEntering={[Function]}
+                  onExit={[Function]}
+                  onExited={[Function]}
+                  onExiting={[Function]}
+                  timeout={300}
+                  unmountOnExit={false}
+                >
+                  <div
+                    aria-expanded={null}
+                    className="navbar-collapse collapse"
+                    id="basic-navbar-nav"
+                  >
+                    <Nav
+                      className="mr-auto"
+                      fill={false}
+                      justify={false}
+                    >
+                      <ForwardRef
+                        as="div"
+                        className="mr-auto navbar-nav"
+                        onSelect={[Function]}
+                      >
+                        <div
+                          className="mr-auto navbar-nav"
+                          onKeyDown={[Function]}
+                        >
+                          <BrowserRouter>
+                            <Router
+                              history={
+                                Object {
+                                  "action": "POP",
+                                  "block": [Function],
+                                  "createHref": [Function],
+                                  "go": [Function],
+                                  "goBack": [Function],
+                                  "goForward": [Function],
+                                  "length": 1,
+                                  "listen": [Function],
+                                  "location": Object {
+                                    "hash": "",
+                                    "pathname": "blank",
+                                    "search": "",
+                                    "state": undefined,
+                                  },
+                                  "push": [Function],
+                                  "replace": [Function],
+                                }
+                              }
+                            >
+                              <Link
+                                data-testid="createprofile"
+                                onClick={[Function]}
+                                to="/createprofile"
+                              >
+                                <LinkAnchor
+                                  data-testid="createprofile"
+                                  href="/createprofile"
+                                  navigate={[Function]}
+                                  onClick={[Function]}
+                                >
+                                  <a
+                                    data-testid="createprofile"
+                                    href="/createprofile"
+                                    onClick={[Function]}
+                                  >
+                                    Add Developer
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                              <Link
+                                data-testid="alldevelopers"
+                                onClick={[Function]}
+                                to="/alldevelopers"
+                              >
+                                <LinkAnchor
+                                  data-testid="alldevelopers"
+                                  href="/alldevelopers"
+                                  navigate={[Function]}
+                                  onClick={[Function]}
+                                >
+                                  <a
+                                    data-testid="alldevelopers"
+                                    href="/alldevelopers"
+                                    onClick={[Function]}
+                                  >
+                                    All Developer
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                            </Router>
+                          </BrowserRouter>
+                        </div>
+                      </ForwardRef>
+                    </Nav>
+                    <Nav
+                      fill={false}
+                      justify={false}
+                    >
+                      <ForwardRef
+                        as="div"
+                        className="navbar-nav"
+                        onSelect={[Function]}
+                      >
+                        <div
+                          className="navbar-nav"
+                          onKeyDown={[Function]}
+                        >
+                          <Button
+                            active={false}
+                            data-testid="logout"
+                            disabled={false}
+                            onClick={[Function]}
+                            type="button"
+                            variant="outline-info"
+                          >
+                            <button
+                              className="btn btn-outline-info"
+                              data-testid="logout"
+                              disabled={false}
+                              onClick={[Function]}
+                              type="button"
+                            >
+                              Logout
+                            </button>
+                          </Button>
+                        </div>
+                      </ForwardRef>
+                    </Nav>
+                  </div>
+                </Transition>
+              </Collapse>
+            </NavbarCollapse>
+          </nav>
+        </Navbar>
+      </Navigationbar>
+    </withRouter(Navigationbar)>
+  </Router>
+</MemoryRouter>
+`;
+
+exports[`<Navbar /> component when role is manager simulating the Swap Requests Link 1`] = `
+<MemoryRouter>
+  <Router
+    history={
+      Object {
+        "action": "PUSH",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "r8mfub",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          Object {
+            "hash": "",
+            "key": "o5dii8",
+            "pathname": "/alldevelopers",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 1,
+        "length": 2,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "o5dii8",
+          "pathname": "/alldevelopers",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <withRouter(Navigationbar)
+      history={
+        Object {
+          "push": [MockFunction],
+        }
+      }
+      role="manager"
+    >
+      <Navigationbar
+        history={
+          Object {
+            "action": "PUSH",
+            "block": [Function],
+            "canGo": [Function],
+            "createHref": [Function],
+            "entries": Array [
+              Object {
+                "hash": "",
+                "key": "r8mfub",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              },
+              Object {
+                "hash": "",
+                "key": "o5dii8",
+                "pathname": "/alldevelopers",
+                "search": "",
+                "state": undefined,
+              },
+            ],
+            "go": [Function],
+            "goBack": [Function],
+            "goForward": [Function],
+            "index": 1,
+            "length": 2,
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "key": "o5dii8",
+              "pathname": "/alldevelopers",
+              "search": "",
+              "state": undefined,
+            },
+            "push": [Function],
+            "replace": [Function],
+          }
+        }
+        location={
+          Object {
+            "hash": "",
+            "key": "o5dii8",
+            "pathname": "/alldevelopers",
+            "search": "",
+            "state": undefined,
+          }
+        }
+        match={
+          Object {
+            "isExact": false,
+            "params": Object {},
+            "path": "/",
+            "url": "/",
+          }
+        }
+        role="manager"
+      >
+        <Navbar
+          bg="light"
+          collapseOnSelect={false}
+          expand="lg"
+          variant="light"
+        >
+          <nav
+            className="navbar navbar-expand-lg navbar-light bg-light"
+          >
+            <NavbarBrand
+              onClick={[Function]}
+            >
+              <span
+                className="navbar-brand"
+                onClick={[Function]}
+              >
+                Employee Management System
+              </span>
+            </NavbarBrand>
+            <NavbarToggle
+              aria-controls="basic-navbar-nav"
+              label="Toggle navigation"
+            >
+              <button
+                aria-controls="basic-navbar-nav"
+                aria-label="Toggle navigation"
+                className="navbar-toggler collapsed"
+                onClick={[Function]}
+                type="button"
+              >
+                <span
+                  className="navbar-toggler-icon"
+                />
+              </button>
+            </NavbarToggle>
+            <NavbarCollapse
+              id="basic-navbar-nav"
+            >
+              <Collapse
+                appear={false}
+                dimension="height"
+                getDimensionValue={[Function]}
+                id="basic-navbar-nav"
+                in={false}
+                mountOnEnter={false}
+                timeout={300}
+                unmountOnExit={false}
+              >
+                <Transition
+                  addEndListener={[Function]}
+                  appear={false}
+                  aria-expanded={null}
+                  enter={true}
+                  exit={true}
+                  id="basic-navbar-nav"
+                  in={false}
+                  mountOnEnter={false}
+                  onEnter={[Function]}
+                  onEntered={[Function]}
+                  onEntering={[Function]}
+                  onExit={[Function]}
+                  onExited={[Function]}
+                  onExiting={[Function]}
+                  timeout={300}
+                  unmountOnExit={false}
+                >
+                  <div
+                    aria-expanded={null}
+                    className="navbar-collapse collapse"
+                    id="basic-navbar-nav"
+                  >
+                    <Nav
+                      className="mr-auto"
+                      fill={false}
+                      justify={false}
+                    >
+                      <ForwardRef
+                        as="div"
+                        className="mr-auto navbar-nav"
+                        onSelect={[Function]}
+                      >
+                        <div
+                          className="mr-auto navbar-nav"
+                          onKeyDown={[Function]}
+                        >
+                          <BrowserRouter>
+                            <Router
+                              history={
+                                Object {
+                                  "action": "POP",
+                                  "block": [Function],
+                                  "createHref": [Function],
+                                  "go": [Function],
+                                  "goBack": [Function],
+                                  "goForward": [Function],
+                                  "length": 1,
+                                  "listen": [Function],
+                                  "location": Object {
+                                    "hash": "",
+                                    "pathname": "blank",
+                                    "search": "",
+                                    "state": undefined,
+                                  },
+                                  "push": [Function],
+                                  "replace": [Function],
+                                }
+                              }
+                            >
+                              <Link
+                                data-testid="createprofile"
+                                onClick={[Function]}
+                                to="/createprofile"
+                              >
+                                <LinkAnchor
+                                  data-testid="createprofile"
+                                  href="/createprofile"
+                                  navigate={[Function]}
+                                  onClick={[Function]}
+                                >
+                                  <a
+                                    data-testid="createprofile"
+                                    href="/createprofile"
+                                    onClick={[Function]}
+                                  >
+                                    Add Developer
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                              <Link
+                                data-testid="alldevelopers"
+                                onClick={[Function]}
+                                to="/alldevelopers"
+                              >
+                                <LinkAnchor
+                                  data-testid="alldevelopers"
+                                  href="/alldevelopers"
+                                  navigate={[Function]}
+                                  onClick={[Function]}
+                                >
+                                  <a
+                                    data-testid="alldevelopers"
+                                    href="/alldevelopers"
+                                    onClick={[Function]}
+                                  >
+                                    All Developer
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                            </Router>
+                          </BrowserRouter>
+                        </div>
+                      </ForwardRef>
+                    </Nav>
+                    <Nav
+                      fill={false}
+                      justify={false}
+                    >
+                      <ForwardRef
+                        as="div"
+                        className="navbar-nav"
+                        onSelect={[Function]}
+                      >
+                        <div
+                          className="navbar-nav"
+                          onKeyDown={[Function]}
+                        >
+                          <Button
+                            active={false}
+                            data-testid="logout"
+                            disabled={false}
+                            onClick={[Function]}
+                            type="button"
+                            variant="outline-info"
+                          >
+                            <button
+                              className="btn btn-outline-info"
+                              data-testid="logout"
+                              disabled={false}
+                              onClick={[Function]}
+                              type="button"
+                            >
+                              Logout
+                            </button>
+                          </Button>
+                        </div>
+                      </ForwardRef>
+                    </Nav>
+                  </div>
+                </Transition>
+              </Collapse>
+            </NavbarCollapse>
+          </nav>
+        </Navbar>
+      </Navigationbar>
+    </withRouter(Navigationbar)>
+  </Router>
+</MemoryRouter>
+`;

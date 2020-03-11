@@ -110,7 +110,7 @@ class AssignShift extends Component {
   render() {
     const { user, days, shiftAssign } = this.state;
     if (this.props.role !== "manager") {
-      return <NotFound role={this.props.role} />;
+      return <NotFound role={this.props.role} message="Not Found..." />;
     }
     return (
       <React.Fragment>

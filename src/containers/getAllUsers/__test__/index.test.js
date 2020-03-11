@@ -1,10 +1,8 @@
 import "babel-polyfill";
 import React from "react";
 import Component from "../index";
-import { create } from "react-test-renderer";
 import { mount } from "enzyme";
 import { MemoryRouter } from "react-router-dom";
-import toJson from "enzyme-to-json";
 
 jest.mock("axios", () => ({
   get: jest.fn(url => {
@@ -28,7 +26,8 @@ jest.mock("axios", () => ({
   }),
   create: jest.fn(function() {
     return this;
-  })
+  }),
+  delete: jest.fn()
 }));
 
 describe("<GetAllUsers /> Component", () => {
@@ -49,7 +48,7 @@ describe("<GetAllUsers /> Component", () => {
     );
     const wrapper = mount(
       <MemoryRouter>
-        <Component />
+        <Component role="manager" />
       </MemoryRouter>
     );
 

@@ -30,12 +30,14 @@ const Navigationbar = ({ role, history }) => {
               <Router>
                 <Link
                   to="/createprofile"
+                  data-testid="createprofile"
                   onClick={() => history.push("/createprofile")}
                 >
                   Add Developer
                 </Link>
                 <Link
                   to="/alldevelopers"
+                  data-testid="alldevelopers"
                   onClick={() => history.push("/alldevelopers")}
                 >
                   All Developer
@@ -43,7 +45,11 @@ const Navigationbar = ({ role, history }) => {
               </Router>
             </Nav>
             <Nav>
-              <Button onClick={() => Logout(history)} variant="outline-info">
+              <Button
+                data-testid="logout"
+                onClick={() => Logout(history)}
+                variant="outline-info"
+              >
                 Logout
               </Button>
             </Nav>
@@ -58,14 +64,23 @@ const Navigationbar = ({ role, history }) => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
               <Router>
-                <Link to="/tasks" onClick={() => history.push("/tasks")}>
+                <Link
+                  data-testid="tasks"
+                  to="/tasks"
+                  onClick={() => history.push("/tasks")}
+                >
                   Tasks
                 </Link>
-                <Link to="/timings" onClick={() => history.push("/timings")}>
+                <Link
+                  data-testid="timings"
+                  to="/timings"
+                  onClick={() => history.push("/timings")}
+                >
                   Timings
                 </Link>
                 <Link
                   to="/swapshift"
+                  data-testid="swapshift"
                   onClick={() => history.push("/swapshift")}
                 >
                   Swap Requests
@@ -73,7 +88,11 @@ const Navigationbar = ({ role, history }) => {
               </Router>
             </Nav>
             <Nav>
-              <Button onClick={() => Logout(history)} variant="outline-info">
+              <Button
+                data-testid="logout"
+                onClick={() => Logout(history)}
+                variant="outline-info"
+              >
                 Logout
               </Button>
             </Nav>

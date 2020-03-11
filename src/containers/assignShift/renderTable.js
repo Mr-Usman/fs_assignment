@@ -1,6 +1,5 @@
 import React from "react";
 import { Form, Button, Col, Row, Jumbotron, Table } from "react-bootstrap";
-import DatePicker from "react-datepicker";
 
 import RenderRow from "./renderRow";
 
@@ -21,7 +20,9 @@ const AssignTable = ({ days, onSubmit, onChange }) => {
           </tbody>
         </Table>
         <Form.Group>
-          <Button type="submit">Submit</Button>
+          <Button data-testid="submitButton" type="submit">
+            Submit
+          </Button>
         </Form.Group>
       </Form>
     </React.Fragment>

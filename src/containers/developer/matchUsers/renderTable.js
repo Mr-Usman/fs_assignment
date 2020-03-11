@@ -22,7 +22,9 @@ const RenderTable = ({ list, allSelectedUsers, submittedSelectedUsers }) => {
         </tbody>
       </Table>
       <Form.Group>
-        <Button onClick={submittedSelectedUsers}>Submit</Button>
+        <Button data-testid="submitbutton" onClick={submittedSelectedUsers}>
+          Submit
+        </Button>
       </Form.Group>
     </React.Fragment>
   );

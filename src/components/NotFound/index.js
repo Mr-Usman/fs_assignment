@@ -14,12 +14,12 @@ const Title = styled.h1`
   color: palevioletred;
 `;
 
-const NotFound = ({ role }) => {
+const NotFound = ({ role, message }) => {
   return (
     <React.Fragment>
       <Navbar role={role} />
       <Wrapper>
-        <Title>Not Found...</Title>
+        <Title>{message}</Title>
       </Wrapper>
     </React.Fragment>
   );

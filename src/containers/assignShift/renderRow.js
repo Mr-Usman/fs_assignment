@@ -10,6 +10,7 @@ const RenderRow = ({ days, onChange }) => {
           <td>
             <DatePicker
               selected={day.startTime}
+              id="startTime"
               onChange={date => onChange(day.id, "startTime", date)}
               showTimeSelect
               timeFormat="HH:mm"
@@ -21,6 +22,7 @@ const RenderRow = ({ days, onChange }) => {
           <td>
             <DatePicker
               selected={day.endTime}
+              id="endTime"
               onChange={date => onChange(day.id, "endTime", date)}
               showTimeSelect
               timeFormat="HH:mm"

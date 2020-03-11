@@ -37,7 +37,7 @@ const ApproveDrops = props => {
         );
         setDroppedShifts(dropsShifts.data);
       } catch (e) {
-        console.log(e.message);
+        console.log(e);
       }
     }
     getDropShifts();
@@ -61,7 +61,7 @@ const ApproveDrops = props => {
   }
 
   if (props.role !== "manager") {
-    return <NotFound role={props.role} />;
+    return <NotFound role={props.role} message="Not Found..." />;
   }
 
   return (

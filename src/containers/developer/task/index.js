@@ -50,7 +50,7 @@ class Task extends Component {
   render() {
     const { taskList } = this.state;
     if (this.props.role !== "developer") {
-      return <NotFound role={this.props.role} />;
+      return <NotFound role={this.props.role} message="Not Found..." />;
     }
     return (
       <React.Fragment>

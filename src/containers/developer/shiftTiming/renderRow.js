@@ -11,10 +11,14 @@ const RenderRows = ({ timing, onDrop, onSwap }) => {
           <td>{time.startTime}</td>
           <td>{time.endTime}</td>
           <td>
-            <Button onClick={() => onDrop(time)}>Drop</Button>
+            <Button data-testid="drop" onClick={() => onDrop(time)}>
+              Drop
+            </Button>
           </td>
           <td>
-            <Button onClick={() => onSwap(time)}>Swap</Button>
+            <Button data-testid="swap" onClick={() => onSwap(time)}>
+              Swap
+            </Button>
           </td>
         </tr>
       ))}

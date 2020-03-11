@@ -107,7 +107,7 @@ class GetAllUsers extends Component {
   render() {
     const { users, editProfile, selectedUser, logout } = this.state;
     if (this.props.role !== "manager") {
-      return <NotFound role={this.props.role} />;
+      return <NotFound role={this.props.role} message="Not Found..." />;
     }
     return (
       <React.Fragment>

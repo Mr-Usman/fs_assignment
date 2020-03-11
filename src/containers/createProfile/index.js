@@ -53,6 +53,7 @@ class CreateProfile extends Component {
       this.setState(() => ({
         userAdded: true
       }));
+      this.props.history.push("/alldevelopers");
     } catch (e) {
       this.setState(() => ({
         userAdded: false
@@ -69,9 +70,10 @@ class CreateProfile extends Component {
   };
 
   render() {
-    const { email, password } = this.state;
+    const { email, password, userAdded } = this.state;
+    console.log(userAdded);
     if (this.props.role !== "manager") {
-      return <NotFound role={this.props.role} />;
+      return <NotFound role={this.props.role} message="Not Found..." />;
     }
     return (
       <React.Fragment>
@@ -87,6 +89,7 @@ class CreateProfile extends Component {
                   <Form.Control
                     onChange={e => this.setState({ email: e.target.value })}
                     name="email"
+                    data-testid="email"
                     value={email}
                     type="email"
                   />
@@ -98,6 +101,7 @@ class CreateProfile extends Component {
                   <Form.Control
                     onChange={e => this.setState({ password: e.target.value })}
                     name="password"
+                    data-testid="password"
                     value={password}
                     type="password"
                   />
@@ -111,6 +115,7 @@ class CreateProfile extends Component {
                 <Form.Group>
                   <Form.Label>Select Role</Form.Label>
                   <Form.Control
+                    data-testid="role"
                     onChange={e => this.setState({ role: e.target.value })}
                     as="select"
                   >

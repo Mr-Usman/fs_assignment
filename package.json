@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "async-wait-until": "^1.2.4",
     "axios": "^0.19.2",
     "babel-polyfill": "^6.26.0",
     "bootstrap": "^4.4.1",
@@ -17,6 +18,7 @@
     "react-dom": "^16.13.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
+    "react-testing-library": "^8.0.1",
     "styled-components": "^5.0.1"
   },
   "jest": {
@@ -34,7 +36,11 @@
     "extends": "react-app"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
     "@babel/plugin-transform-async-to-generator": "^7.8.3",
+    "@babel/plugin-transform-react-jsx": "^7.8.3",
+    "@babel/plugin-transform-regenerator": "^7.8.7",
     "@babel/polyfill": "^7.8.3",
     "@babel/preset-env": "^7.8.4",
     "@types/enzyme": "^3.10.5",

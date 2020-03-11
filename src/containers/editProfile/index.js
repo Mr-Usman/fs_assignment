@@ -53,8 +53,6 @@ class EditProfile extends Component {
         },
         config
       );
-      console.log(res);
-      debugger;
       this.setState(() => ({
         userUpdated: true
       }));
@@ -75,16 +73,17 @@ class EditProfile extends Component {
   };
 
   render() {
-    const { email, password, user } = this.state;
+    const { email, password, user, userUpdated } = this.state;
+    console.log(userUpdated);
     if (this.props.role !== "manager") {
-      return <NotFound role={this.props.role} />;
+      return <NotFound role={this.props.role} message="Not Found..." />;
     }
     return (
       <React.Fragment>
         <Navbar role={this.props.role} />
         <Wrapper>
           <Title>Update User ({user.email})</Title>
-          <Form onSubmit={this.onSubmitHandler}>
+          <Form data-testid="formsubmission" onSubmit={this.onSubmitHandler}>
             <Row>
               <Col md={2}></Col>
               <Col md={4}>
@@ -105,6 +104,7 @@ class EditProfile extends Component {
                   <Form.Control
                     onChange={e => this.setState({ password: e.target.value })}
                     name="password"
+                    data-testid="password"
                     value={password}
                     type="password"
                   />
@@ -118,7 +118,7 @@ class EditProfile extends Component {
                 <Form.Group>
                   <Form.Label>Select Role</Form.Label>
                   <Form.Control
-                    data-testid="permissions"
+                    data-testid="role"
                     onChange={e => this.setState({ role: e.target.value })}
                     as="select"
                   >
@@ -137,6 +137,7 @@ class EditProfile extends Component {
                       name="create"
                       type="checkbox"
                       onChange={this.onSetPermissions}
+                      data-testid="permissions"
                       inline
                       label="Create"
                     />

@@ -1,0 +1,931 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AssignTask /> Component if role is not manager 1`] = `
+<MemoryRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "faxuad",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "faxuad",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <AssignTask
+      location={
+        Object {
+          "state": Object {
+            "user": Object {
+              "email": "",
+            },
+          },
+        }
+      }
+      role="developer"
+    >
+      <NotFound
+        role="developer"
+      >
+        <withRouter(Navigationbar)
+          role="developer"
+        >
+          <Navigationbar
+            history={
+              Object {
+                "action": "POP",
+                "block": [Function],
+                "canGo": [Function],
+                "createHref": [Function],
+                "entries": Array [
+                  Object {
+                    "hash": "",
+                    "key": "faxuad",
+                    "pathname": "/",
+                    "search": "",
+                    "state": undefined,
+                  },
+                ],
+                "go": [Function],
+                "goBack": [Function],
+                "goForward": [Function],
+                "index": 0,
+                "length": 1,
+                "listen": [Function],
+                "location": Object {
+                  "hash": "",
+                  "key": "faxuad",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                },
+                "push": [Function],
+                "replace": [Function],
+              }
+            }
+            location={
+              Object {
+                "hash": "",
+                "key": "faxuad",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              }
+            }
+            match={
+              Object {
+                "isExact": true,
+                "params": Object {},
+                "path": "/",
+                "url": "/",
+              }
+            }
+            role="developer"
+          >
+            <Navbar
+              bg="light"
+              collapseOnSelect={false}
+              expand="lg"
+              fluid={true}
+              inverse={true}
+              variant="light"
+            >
+              <nav
+                className="navbar navbar-expand-lg navbar-light bg-light"
+                fluid={true}
+                inverse={true}
+              >
+                <NavbarBrand
+                  onClick={[Function]}
+                >
+                  <span
+                    className="navbar-brand"
+                    onClick={[Function]}
+                  >
+                    Employee Management System
+                  </span>
+                </NavbarBrand>
+                <NavbarToggle
+                  aria-controls="basic-navbar-nav"
+                  label="Toggle navigation"
+                >
+                  <button
+                    aria-controls="basic-navbar-nav"
+                    aria-label="Toggle navigation"
+                    className="navbar-toggler collapsed"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <span
+                      className="navbar-toggler-icon"
+                    />
+                  </button>
+                </NavbarToggle>
+                <NavbarCollapse
+                  id="basic-navbar-nav"
+                >
+                  <Collapse
+                    appear={false}
+                    dimension="height"
+                    getDimensionValue={[Function]}
+                    id="basic-navbar-nav"
+                    in={false}
+                    mountOnEnter={false}
+                    timeout={300}
+                    unmountOnExit={false}
+                  >
+                    <Transition
+                      addEndListener={[Function]}
+                      appear={false}
+                      aria-expanded={null}
+                      enter={true}
+                      exit={true}
+                      id="basic-navbar-nav"
+                      in={false}
+                      mountOnEnter={false}
+                      onEnter={[Function]}
+                      onEntered={[Function]}
+                      onEntering={[Function]}
+                      onExit={[Function]}
+                      onExited={[Function]}
+                      onExiting={[Function]}
+                      timeout={300}
+                      unmountOnExit={false}
+                    >
+                      <div
+                        aria-expanded={null}
+                        className="navbar-collapse collapse"
+                        id="basic-navbar-nav"
+                      >
+                        <Nav
+                          className="mr-auto"
+                          fill={false}
+                          justify={false}
+                        >
+                          <ForwardRef
+                            as="div"
+                            className="mr-auto navbar-nav"
+                            onSelect={[Function]}
+                          >
+                            <div
+                              className="mr-auto navbar-nav"
+                              onKeyDown={[Function]}
+                            >
+                              <BrowserRouter>
+                                <Router
+                                  history={
+                                    Object {
+                                      "action": "POP",
+                                      "block": [Function],
+                                      "createHref": [Function],
+                                      "go": [Function],
+                                      "goBack": [Function],
+                                      "goForward": [Function],
+                                      "length": 1,
+                                      "listen": [Function],
+                                      "location": Object {
+                                        "hash": "",
+                                        "pathname": "blank",
+                                        "search": "",
+                                        "state": undefined,
+                                      },
+                                      "push": [Function],
+                                      "replace": [Function],
+                                    }
+                                  }
+                                >
+                                  <Link
+                                    onClick={[Function]}
+                                    to="/tasks"
+                                  >
+                                    <LinkAnchor
+                                      href="/tasks"
+                                      navigate={[Function]}
+                                      onClick={[Function]}
+                                    >
+                                      <a
+                                        href="/tasks"
+                                        onClick={[Function]}
+                                      >
+                                        Tasks
+                                      </a>
+                                    </LinkAnchor>
+                                  </Link>
+                                  <Link
+                                    onClick={[Function]}
+                                    to="/timings"
+                                  >
+                                    <LinkAnchor
+                                      href="/timings"
+                                      navigate={[Function]}
+                                      onClick={[Function]}
+                                    >
+                                      <a
+                                        href="/timings"
+                                        onClick={[Function]}
+                                      >
+                                        Timings
+                                      </a>
+                                    </LinkAnchor>
+                                  </Link>
+                                  <Link
+                                    onClick={[Function]}
+                                    to="/swapshift"
+                                  >
+                                    <LinkAnchor
+                                      href="/swapshift"
+                                      navigate={[Function]}
+                                      onClick={[Function]}
+                                    >
+                                      <a
+                                        href="/swapshift"
+                                        onClick={[Function]}
+                                      >
+                                        Swap Requests
+                                      </a>
+                                    </LinkAnchor>
+                                  </Link>
+                                </Router>
+                              </BrowserRouter>
+                            </div>
+                          </ForwardRef>
+                        </Nav>
+                        <Nav
+                          fill={false}
+                          justify={false}
+                        >
+                          <ForwardRef
+                            as="div"
+                            className="navbar-nav"
+                            onSelect={[Function]}
+                          >
+                            <div
+                              className="navbar-nav"
+                              onKeyDown={[Function]}
+                            >
+                              <Button
+                                active={false}
+                                disabled={false}
+                                onClick={[Function]}
+                                type="button"
+                                variant="outline-info"
+                              >
+                                <button
+                                  className="btn btn-outline-info"
+                                  disabled={false}
+                                  onClick={[Function]}
+                                  type="button"
+                                >
+                                  Logout
+                                </button>
+                              </Button>
+                            </div>
+                          </ForwardRef>
+                        </Nav>
+                      </div>
+                    </Transition>
+                  </Collapse>
+                </NavbarCollapse>
+              </nav>
+            </Navbar>
+          </Navigationbar>
+        </withRouter(Navigationbar)>
+        <styled.div>
+          <div
+            className="sc-AxjAm bcThxe"
+          >
+            <styled.h1>
+              <h1
+                className="sc-AxirZ kHuMvb"
+              >
+                Not Found...
+              </h1>
+            </styled.h1>
+          </div>
+        </styled.div>
+      </NotFound>
+    </AssignTask>
+  </Router>
+</MemoryRouter>
+`;
+
+exports[`<AssignTask /> Component mounting the component 1`] = `
+<MemoryRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "xtznm0",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "xtznm0",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <AssignTask
+      location={
+        Object {
+          "state": Object {
+            "user": Object {
+              "email": "",
+            },
+          },
+        }
+      }
+      role="manager"
+    >
+      <withRouter(Navigationbar)
+        role="manager"
+      >
+        <Navigationbar
+          history={
+            Object {
+              "action": "POP",
+              "block": [Function],
+              "canGo": [Function],
+              "createHref": [Function],
+              "entries": Array [
+                Object {
+                  "hash": "",
+                  "key": "xtznm0",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                },
+              ],
+              "go": [Function],
+              "goBack": [Function],
+              "goForward": [Function],
+              "index": 0,
+              "length": 1,
+              "listen": [Function],
+              "location": Object {
+                "hash": "",
+                "key": "xtznm0",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              },
+              "push": [Function],
+              "replace": [Function],
+            }
+          }
+          location={
+            Object {
+              "hash": "",
+              "key": "xtznm0",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            }
+          }
+          match={
+            Object {
+              "isExact": true,
+              "params": Object {},
+              "path": "/",
+              "url": "/",
+            }
+          }
+          role="manager"
+        >
+          <Navbar
+            bg="light"
+            collapseOnSelect={false}
+            expand="lg"
+            variant="light"
+          >
+            <nav
+              className="navbar navbar-expand-lg navbar-light bg-light"
+            >
+              <NavbarBrand
+                onClick={[Function]}
+              >
+                <span
+                  className="navbar-brand"
+                  onClick={[Function]}
+                >
+                  Employee Management System
+                </span>
+              </NavbarBrand>
+              <NavbarToggle
+                aria-controls="basic-navbar-nav"
+                label="Toggle navigation"
+              >
+                <button
+                  aria-controls="basic-navbar-nav"
+                  aria-label="Toggle navigation"
+                  className="navbar-toggler collapsed"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <span
+                    className="navbar-toggler-icon"
+                  />
+                </button>
+              </NavbarToggle>
+              <NavbarCollapse
+                id="basic-navbar-nav"
+              >
+                <Collapse
+                  appear={false}
+                  dimension="height"
+                  getDimensionValue={[Function]}
+                  id="basic-navbar-nav"
+                  in={false}
+                  mountOnEnter={false}
+                  timeout={300}
+                  unmountOnExit={false}
+                >
+                  <Transition
+                    addEndListener={[Function]}
+                    appear={false}
+                    aria-expanded={null}
+                    enter={true}
+                    exit={true}
+                    id="basic-navbar-nav"
+                    in={false}
+                    mountOnEnter={false}
+                    onEnter={[Function]}
+                    onEntered={[Function]}
+                    onEntering={[Function]}
+                    onExit={[Function]}
+                    onExited={[Function]}
+                    onExiting={[Function]}
+                    timeout={300}
+                    unmountOnExit={false}
+                  >
+                    <div
+                      aria-expanded={null}
+                      className="navbar-collapse collapse"
+                      id="basic-navbar-nav"
+                    >
+                      <Nav
+                        className="mr-auto"
+                        fill={false}
+                        justify={false}
+                      >
+                        <ForwardRef
+                          as="div"
+                          className="mr-auto navbar-nav"
+                          onSelect={[Function]}
+                        >
+                          <div
+                            className="mr-auto navbar-nav"
+                            onKeyDown={[Function]}
+                          >
+                            <BrowserRouter>
+                              <Router
+                                history={
+                                  Object {
+                                    "action": "POP",
+                                    "block": [Function],
+                                    "createHref": [Function],
+                                    "go": [Function],
+                                    "goBack": [Function],
+                                    "goForward": [Function],
+                                    "length": 1,
+                                    "listen": [Function],
+                                    "location": Object {
+                                      "hash": "",
+                                      "pathname": "blank",
+                                      "search": "",
+                                      "state": undefined,
+                                    },
+                                    "push": [Function],
+                                    "replace": [Function],
+                                  }
+                                }
+                              >
+                                <Link
+                                  onClick={[Function]}
+                                  to="/createprofile"
+                                >
+                                  <LinkAnchor
+                                    href="/createprofile"
+                                    navigate={[Function]}
+                                    onClick={[Function]}
+                                  >
+                                    <a
+                                      href="/createprofile"
+                                      onClick={[Function]}
+                                    >
+                                      Add Developer
+                                    </a>
+                                  </LinkAnchor>
+                                </Link>
+                                <Link
+                                  onClick={[Function]}
+                                  to="/alldevelopers"
+                                >
+                                  <LinkAnchor
+                                    href="/alldevelopers"
+                                    navigate={[Function]}
+                                    onClick={[Function]}
+                                  >
+                                    <a
+                                      href="/alldevelopers"
+                                      onClick={[Function]}
+                                    >
+                                      All Developer
+                                    </a>
+                                  </LinkAnchor>
+                                </Link>
+                              </Router>
+                            </BrowserRouter>
+                          </div>
+                        </ForwardRef>
+                      </Nav>
+                      <Nav
+                        fill={false}
+                        justify={false}
+                      >
+                        <ForwardRef
+                          as="div"
+                          className="navbar-nav"
+                          onSelect={[Function]}
+                        >
+                          <div
+                            className="navbar-nav"
+                            onKeyDown={[Function]}
+                          >
+                            <Button
+                              active={false}
+                              disabled={false}
+                              onClick={[Function]}
+                              type="button"
+                              variant="outline-info"
+                            >
+                              <button
+                                className="btn btn-outline-info"
+                                disabled={false}
+                                onClick={[Function]}
+                                type="button"
+                              >
+                                Logout
+                              </button>
+                            </Button>
+                          </div>
+                        </ForwardRef>
+                      </Nav>
+                    </div>
+                  </Transition>
+                </Collapse>
+              </NavbarCollapse>
+            </nav>
+          </Navbar>
+        </Navigationbar>
+      </withRouter(Navigationbar)>
+      <styled.div>
+        <div
+          className="sc-AxiKw gA-drMl"
+        >
+          <styled.h1>
+            <h1
+              className="sc-AxhCb jQvLNr"
+            >
+              Assigning Task to (
+              )
+            </h1>
+          </styled.h1>
+          <Form
+            inline={false}
+            onSubmit={[Function]}
+          >
+            <form
+              className=""
+              onSubmit={[Function]}
+            >
+              <Row
+                noGutters={false}
+              >
+                <div
+                  className="row"
+                >
+                  <Col
+                    md={2}
+                  >
+                    <div
+                      className="col-md-2"
+                    />
+                  </Col>
+                  <Col
+                    md={8}
+                  >
+                    <div
+                      className="col-md-8"
+                    >
+                      <FormGroup>
+                        <div
+                          className="form-group"
+                        >
+                          <FormLabel
+                            column={false}
+                            srOnly={false}
+                          >
+                            <label
+                              className="form-label"
+                            >
+                              Title
+                            </label>
+                          </FormLabel>
+                          <FormControl
+                            data-testid="title"
+                            name="title"
+                            onChange={[Function]}
+                            type="text"
+                            value=""
+                          >
+                            <input
+                              className="form-control"
+                              data-testid="title"
+                              name="title"
+                              onChange={[Function]}
+                              type="text"
+                              value=""
+                            />
+                          </FormControl>
+                        </div>
+                      </FormGroup>
+                      <FormGroup>
+                        <div
+                          className="form-group"
+                        >
+                          <FormLabel
+                            column={false}
+                            srOnly={false}
+                          >
+                            <label
+                              className="form-label"
+                            >
+                              Description
+                            </label>
+                          </FormLabel>
+                          <FormControl
+                            aria-label="With textarea"
+                            as="textarea"
+                            data-testid="description"
+                            name="description"
+                            onChange={[Function]}
+                            type="text"
+                            value=""
+                          >
+                            <textarea
+                              aria-label="With textarea"
+                              className="form-control"
+                              data-testid="description"
+                              name="description"
+                              onChange={[Function]}
+                              type="text"
+                              value=""
+                            />
+                          </FormControl>
+                        </div>
+                      </FormGroup>
+                      <FormGroup>
+                        <div
+                          className="form-group"
+                        >
+                          <FormLabel
+                            column={false}
+                            srOnly={false}
+                          >
+                            <label
+                              className="form-label"
+                            >
+                              Deadline
+                            </label>
+                          </FormLabel>
+                          <t
+                            allowSameDay={false}
+                            customTimeInput={null}
+                            dateFormat="MMMM d, yyyy h:mm aa"
+                            dateFormatCalendar="LLLL yyyy"
+                            disabled={false}
+                            disabledKeyboardNavigation={false}
+                            dropdownMode="scroll"
+                            enableTabLoop={true}
+                            excludeScrollbar={true}
+                            id="datetime"
+                            inlineFocusSelectedMonth={false}
+                            monthsShown={1}
+                            nextMonthButtonLabel="Next Month"
+                            nextYearButtonLabel="Next Year"
+                            onBlur={[Function]}
+                            onCalendarClose={[Function]}
+                            onCalendarOpen={[Function]}
+                            onChange={[Function]}
+                            onClickOutside={[Function]}
+                            onFocus={[Function]}
+                            onInputClick={[Function]}
+                            onInputError={[Function]}
+                            onKeyDown={[Function]}
+                            onMonthChange={[Function]}
+                            onSelect={[Function]}
+                            onYearChange={[Function]}
+                            preventOpenOnFocus={false}
+                            previousMonthButtonLabel="Previous Month"
+                            previousYearButtonLabel="Previous Year"
+                            readOnly={false}
+                            renderDayContents={[Function]}
+                            selected={2020-03-10T11:08:50.184Z}
+                            shouldCloseOnSelect={true}
+                            showMonthYearPicker={false}
+                            showPopperArrow={true}
+                            showPreviousMonths={false}
+                            showQuarterYearPicker={false}
+                            showTimeInput={false}
+                            showTimeSelect={true}
+                            strictParsing={false}
+                            timeCaption="time"
+                            timeFormat="HH:mm"
+                            timeInputLabel="Time"
+                            timeIntervals={15}
+                            withPortal={false}
+                          >
+                            <t
+                              enableTabLoop={true}
+                              hidePopper={true}
+                              popperComponent={null}
+                              popperModifiers={
+                                Object {
+                                  "preventOverflow": Object {
+                                    "boundariesElement": "viewport",
+                                    "enabled": true,
+                                    "escapeWithReference": true,
+                                  },
+                                }
+                              }
+                              popperOnKeyDown={[Function]}
+                              popperPlacement="bottom-start"
+                              popperProps={Object {}}
+                              targetComponent={
+                                <div
+                                  className="react-datepicker__input-container"
+                                >
+                                  <input
+                                    className=""
+                                    disabled={false}
+                                    id="datetime"
+                                    onBlur={[Function]}
+                                    onChange={[Function]}
+                                    onClick={[Function]}
+                                    onFocus={[Function]}
+                                    onKeyDown={[Function]}
+                                    readOnly={false}
+                                    type="text"
+                                    value="March 10, 2020 4:08 PM"
+                                  />
+                                </div>
+                              }
+                            >
+                              <Manager
+                                className="react-datepicker-manager"
+                              >
+                                <Reference>
+                                  <InnerReference
+                                    setReferenceNode={[Function]}
+                                  >
+                                    <div
+                                      className="react-datepicker-wrapper"
+                                    >
+                                      <div
+                                        className="react-datepicker__input-container"
+                                      >
+                                        <input
+                                          className=""
+                                          disabled={false}
+                                          id="datetime"
+                                          onBlur={[Function]}
+                                          onChange={[Function]}
+                                          onClick={[Function]}
+                                          onFocus={[Function]}
+                                          onKeyDown={[Function]}
+                                          readOnly={false}
+                                          type="text"
+                                          value="March 10, 2020 4:08 PM"
+                                        />
+                                      </div>
+                                    </div>
+                                  </InnerReference>
+                                </Reference>
+                              </Manager>
+                            </t>
+                          </t>
+                        </div>
+                      </FormGroup>
+                      <FormGroup>
+                        <div
+                          className="form-group"
+                        >
+                          <Button
+                            active={false}
+                            disabled={false}
+                            type="submit"
+                            variant="primary"
+                          >
+                            <button
+                              className="btn btn-primary"
+                              disabled={false}
+                              type="submit"
+                            >
+                              Assign
+                            </button>
+                          </Button>
+                        </div>
+                      </FormGroup>
+                    </div>
+                  </Col>
+                  <Col
+                    md={2}
+                  >
+                    <div
+                      className="col-md-2"
+                    />
+                  </Col>
+                </div>
+              </Row>
+              <Row
+                noGutters={false}
+              >
+                <div
+                  className="row"
+                >
+                  <Col
+                    md={2}
+                  >
+                    <div
+                      className="col-md-2"
+                    />
+                  </Col>
+                  <Col
+                    md={8}
+                  >
+                    <div
+                      className="col-md-8"
+                    />
+                  </Col>
+                  <Col
+                    md={2}
+                  >
+                    <div
+                      className="col-md-2"
+                    />
+                  </Col>
+                </div>
+              </Row>
+            </form>
+          </Form>
+        </div>
+      </styled.div>
+    </AssignTask>
+  </Router>
+</MemoryRouter>
+`;

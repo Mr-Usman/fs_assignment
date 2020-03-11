@@ -11,7 +11,12 @@ const RenderRow = ({ dropShift, onApproveShift }) => {
         <td>{dropShift.endTime}</td>
         <td>{dropShift.aprovedStatus.toString()}</td>
         <td>
-          <Button onClick={() => onApproveShift(dropShift._id)}>Approve</Button>
+          <Button
+            data-testid="onApproveShift"
+            onClick={() => onApproveShift(dropShift._id)}
+          >
+            Approve
+          </Button>
         </td>
       </tr>
     </React.Fragment>
