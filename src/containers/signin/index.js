@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import axios from "axios";
 import { Redirect, Router, withRouter } from "react-router-dom";
-import { Form, Button } from "react-bootstrap";
+import { Form, Button, Jumbotron } from "react-bootstrap";
 
 import API from "../../utils/api_end_points";
 
@@ -29,6 +29,7 @@ const Signin = props => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [logginedIn, setLogginedIn] = useState(false);
+  const [hasError, setHasError] = useState(false);
 
   useEffect(() => {
     const user = JSON.parse(localStorage.getItem("user"));
@@ -55,9 +56,9 @@ const Signin = props => {
       }
     } catch (e) {
       console.log(e.message);
+      setHasError(true);
     }
   };
-
   return (
     <Wrapper>
       <Title>Sign In</Title>
@@ -80,12 +81,14 @@ const Signin = props => {
               placeholder="Password"
             />
           </Form.Group>
+          {hasError && (
+            <Form.Group>
+              <p style={{ color: "red" }}>Invalid User Name or Password! </p>
+            </Form.Group>
+          )}
           <Form.Group>
             <Button variant="primary" type="submit">
               signin
-            </Button>
-            <Button href="#" variant="secondary">
-              Forget Password
             </Button>
           </Form.Group>
         </Form>
