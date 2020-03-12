@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Table, Form } from "react-bootstrap";
+import { Table, Form, Jumbotron } from "react-bootstrap";
 import styled from "styled-components";
 import axios from "axios";
 import { Redirect } from "react-router-dom";
@@ -33,6 +33,7 @@ const Shift = props => {
   const [swap, setSwap] = useState([]);
   const [day, setDay] = useState(null);
   const [hasShift, setHasShift] = useState(true);
+  const [allowDrop, setAllowDrop] = useState("");
 
   useEffect(() => {
     async function getTiming() {
@@ -60,6 +61,7 @@ const Shift = props => {
       const res = await axios.post(API.dropShift, { time }, config);
       setTiming(res.data.currentShift);
     } catch (e) {
+      setAllowDrop(e.messag);
       console.log(e.message);
     }
   };
@@ -99,7 +101,7 @@ const Shift = props => {
   if (!hasShift) {
     return <NotFound role={props.role} message="user hasn't any shift yet." />;
   }
-
+  console.log(allowDrop);
   return (
     <React.Fragment>
       <Navbar role={props.role} />
@@ -110,6 +112,11 @@ const Shift = props => {
           <RenderTable onDrop={onDrop} onSwap={onSwap} timing={timing} />
         ) : null}
       </Wrapper>
+      {allowDrop !== "" ? (
+        <Jumbotron>
+          <p>You Have a Task For This Day!</p>
+        </Jumbotron>
+      ) : null}
     </React.Fragment>
   );
 };
