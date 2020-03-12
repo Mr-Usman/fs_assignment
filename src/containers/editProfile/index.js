@@ -74,7 +74,6 @@ class EditProfile extends Component {
 
   render() {
     const { email, password, user, userUpdated } = this.state;
-    console.log(userUpdated);
     if (this.props.role !== "manager") {
       return <NotFound role={this.props.role} message="Not Found..." />;
     }

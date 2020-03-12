@@ -55,7 +55,6 @@ class AssignTask extends Component {
         taskAssigned: true
       }));
     } catch (e) {
-      console.log(e.message);
       this.setState(() => ({
         taskAssigned: false
       }));

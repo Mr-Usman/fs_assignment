@@ -50,7 +50,6 @@ describe("<SwapShift /> Component", () => {
   });
 
   it("mounting the component", () => {
-    // console.log(wrapper.html());
     expect(toJson(wrapper)).toMatchSnapshot();
   });
 });

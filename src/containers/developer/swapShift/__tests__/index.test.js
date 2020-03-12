@@ -49,9 +49,7 @@ describe("<SwapShift /> Component", () => {
   });
 
   it("mounting the component", () => {
-    console.log(wrapper.html());
     wrapper.update();
-    console.log("chussss", wrapper.find('[data-testid="swapshift"]').length);
     wrapper
       .find('button[data-testid="swapshift"]')
       .at(0)

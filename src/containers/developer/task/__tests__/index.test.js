@@ -62,16 +62,7 @@ describe("<Task /> Component Tests", () => {
     wrapper.unmount();
   });
 
-  // const doMount = () =>
-  //   mount(
-  //     <MemoryRouter>
-  //       <Component role="developer" />
-  //     </MemoryRouter>
-  //   );
-
   it("mounting the component", () => {
-    console.log(wrapper.html());
     wrapper.update();
-    // expect(toJson(wrapper)).toMatchSnapshot();
   });
 });

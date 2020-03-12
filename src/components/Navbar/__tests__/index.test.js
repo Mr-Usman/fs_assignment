@@ -104,9 +104,5 @@ describe("<Navbar /> component", () => {
         .simulate("click");
       expect(toJson(wrapper)).toMatchSnapshot();
     });
-
-    it("click on the Navbar Brand", () => {
-      console.log(wrapper.html());
-    });
   });
 });

@@ -40,7 +40,6 @@ class Task extends Component {
         taskList: res.data
       }));
     } catch (e) {
-      console.log(e.message);
       this.setState(() => ({
         error: true
       }));

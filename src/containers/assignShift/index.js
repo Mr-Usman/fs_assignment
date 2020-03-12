@@ -81,7 +81,6 @@ class AssignShift extends Component {
         shiftAssign: true
       }));
     } catch (e) {
-      console.log(e.message);
       this.setState(() => ({
         shiftAssign: false
       }));

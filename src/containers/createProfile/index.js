@@ -71,7 +71,6 @@ class CreateProfile extends Component {
 
   render() {
     const { email, password, userAdded } = this.state;
-    console.log(userAdded);
     if (this.props.role !== "manager") {
       return <NotFound role={this.props.role} message="Not Found..." />;
     }

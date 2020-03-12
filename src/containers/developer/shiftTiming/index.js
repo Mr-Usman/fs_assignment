@@ -53,7 +53,6 @@ const Shift = props => {
 
   const onDrop = async time => {
     try {
-      // const { day } = time;
       const { token } = JSON.parse(localStorage.getItem("user"));
       const config = {
         headers: { Authorization: `Bearer ${token}` }
@@ -62,7 +61,6 @@ const Shift = props => {
       setTiming(res.data.currentShift);
     } catch (e) {
       setAllowDrop(e.messag);
-      console.log(e.message);
     }
   };
 
@@ -82,11 +80,7 @@ const Shift = props => {
               day,
               role: props.role
             });
-          } else {
-            console.log("swap is 0");
           }
-        } else {
-          console.log("called ");
         }
       });
     } catch (e) {
@@ -101,7 +95,6 @@ const Shift = props => {
   if (!hasShift) {
     return <NotFound role={props.role} message="user hasn't any shift yet." />;
   }
-  console.log(allowDrop);
   return (
     <React.Fragment>
       <Navbar role={props.role} />

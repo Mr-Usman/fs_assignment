@@ -32,7 +32,6 @@ const SwapShift = props => {
         headers: { Authorization: `Bearer ${token}` }
       };
       const res = await axios.get(API.getSwapShifts, config);
-      //   console.log(res);
       setShift(res.data.swapShift);
       setUserEmail(res.data.email);
     }

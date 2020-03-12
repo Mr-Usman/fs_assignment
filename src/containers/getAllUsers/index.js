@@ -43,7 +43,6 @@ class GetAllUsers extends Component {
         headers: { Authorization: `Bearer ${token}` }
       };
       const res = await axios.get(API.getAllUsers, config);
-      console.log("res", res);
       this.setState(() => ({
         users: res.data
       }));

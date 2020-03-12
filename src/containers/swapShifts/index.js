@@ -40,7 +40,6 @@ const SwapShifts = props => {
   if (props.role !== "manager") {
     return <NotFound role={props.role} message="Not Found..." />;
   }
-  console.log(swappedList);
   return (
     <React.Fragment>
       <Navbar role={props.role} />

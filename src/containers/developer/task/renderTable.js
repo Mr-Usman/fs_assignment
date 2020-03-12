@@ -3,7 +3,6 @@ import { Form, Button, Col, Row, Jumbotron, Table } from "react-bootstrap";
 import RenderRow from "./renderRow";
 
 const TaskTable = ({ taskList }) => {
-  // console.log(task);
   return (
     <React.Fragment>
       <Table>
